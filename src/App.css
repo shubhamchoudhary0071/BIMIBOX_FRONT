@@ -1,0 +1,167 @@
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.app {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #0a0a0a;
+  color: #fff;
+}
+
+/* Tab Navigation */
+.app-tabs {
+  display: flex;
+  gap: 0;
+  background: rgba(0, 136, 255, 0.1);
+  border-bottom: 2px solid #0088ff;
+  padding: 0;
+}
+
+.tab-button {
+  flex: 1;
+  padding: 15px 20px;
+  background: transparent;
+  border: none;
+  color: #0088ff;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.tab-button:hover {
+  background: rgba(0, 136, 255, 0.2);
+  color: #00ccff;
+}
+
+.tab-button.active {
+  color: #00ff00;
+  border-bottom-color: #00ff00;
+  background: rgba(0, 255, 0, 0.1);
+  text-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+}
+
+/* Content Area */
+.app-content {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+}
+
+.tab-content {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+/* Floating Info Box */
+.floating-info {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(0, 136, 255, 0.95);
+  border: 2px solid #00ff00;
+  border-radius: 8px;
+  padding: 15px;
+  max-width: 300px;
+  z-index: 1000;
+  box-shadow: 0 0 20px rgba(0, 136, 255, 0.5);
+  animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(400px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.floating-info-content {
+  position: relative;
+  color: #000;
+  font-family: monospace;
+}
+
+.floating-info-content h4 {
+  margin: 0 0 10px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #006688;
+}
+
+.floating-info-content p {
+  margin: 5px 0;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.floating-info-content button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: #ff0000;
+  color: white;
+  border: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 0.2s;
+}
+
+.floating-info-content button:hover {
+  background: #ff3333;
+  transform: scale(1.1);
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0088ff;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00ccff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .app-tabs {
+    flex-wrap: wrap;
+  }
+
+  .tab-button {
+    flex: 1;
+    min-width: 150px;
+    padding: 12px 15px;
+    font-size: 13px;
+  }
+
+  .floating-info {
+    bottom: 10px;
+    right: 10px;
+    max-width: 250px;
+    font-size: 10px;
+  }
+}

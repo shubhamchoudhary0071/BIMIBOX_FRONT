@@ -1,0 +1,4933 @@
+{
+  "metadata": {
+    "num_frames": 246,
+    "format": "webp",
+    "quality": 95,
+    "original_resolution": "3840x1920",
+    "video_type": "360_equirectangular",
+    "reconstruction_file": "output/video1/perspective_reconstruction.pth",
+    "video_file": "videos/video2.mp4"
+  },
+  "data": [
+    {
+      "frame_id": 0,
+      "video_frame_index": 0,
+      "timestamp": 0.0,
+      "video_timestamp_seconds": 0.0,
+      "image_path": "images_360/frame_000000_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "orientation": {
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0,
+        "qw": 1.0
+      }
+    },
+    {
+      "frame_id": 1,
+      "video_frame_index": 59,
+      "timestamp": 4.0,
+      "video_timestamp_seconds": 0.9843166666666667,
+      "image_path": "images_360/frame_000001_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -0.0252958033233881,
+        "y": 0.011412336491048336,
+        "z": -0.08643374592065811
+      },
+      "orientation": {
+        "qx": -0.0005162610905244946,
+        "qy": 6.145230145193636e-05,
+        "qz": -0.0013010301627218723,
+        "qw": 0.9999993443489075
+      }
+    },
+    {
+      "frame_id": 2,
+      "video_frame_index": 89,
+      "timestamp": 6.0,
+      "video_timestamp_seconds": 1.4848166666666667,
+      "image_path": "images_360/frame_000002_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -0.021707061678171158,
+        "y": 0.015949061140418053,
+        "z": -0.19009895622730255
+      },
+      "orientation": {
+        "qx": -0.0006940383464097977,
+        "qy": 0.000279794679954648,
+        "qz": -0.0017239948501810431,
+        "qw": 0.9999985694885254
+      }
+    },
+    {
+      "frame_id": 3,
+      "video_frame_index": 104,
+      "timestamp": 7.0,
+      "video_timestamp_seconds": 1.7350666666666668,
+      "image_path": "images_360/frame_000003_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -0.009233464486896992,
+        "y": 0.019161710515618324,
+        "z": -0.27144110202789307
+      },
+      "orientation": {
+        "qx": -0.0008844453259371221,
+        "qy": 7.889749394962564e-05,
+        "qz": -0.002110563451424241,
+        "qw": 0.9999977946281433
+      }
+    },
+    {
+      "frame_id": 4,
+      "video_frame_index": 119,
+      "timestamp": 8.0,
+      "video_timestamp_seconds": 1.9853166666666668,
+      "image_path": "images_360/frame_000004_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 0.014998623169958591,
+        "y": 0.001292499015107751,
+        "z": -0.358102023601532
+      },
+      "orientation": {
+        "qx": -0.0010355766862630844,
+        "qy": 3.0449562473222613e-05,
+        "qz": -0.002359371166676283,
+        "qw": 0.9999977350234985
+      }
+    },
+    {
+      "frame_id": 5,
+      "video_frame_index": 134,
+      "timestamp": 9.0,
+      "video_timestamp_seconds": 2.2355666666666667,
+      "image_path": "images_360/frame_000005_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 0.011849185451865196,
+        "y": 0.0016152736498042941,
+        "z": -0.4375391900539398
+      },
+      "orientation": {
+        "qx": -0.0011682030744850636,
+        "qy": -0.00026188959600403905,
+        "qz": -0.002718210918828845,
+        "qw": 0.9999962449073792
+      }
+    },
+    {
+      "frame_id": 6,
+      "video_frame_index": 164,
+      "timestamp": 11.0,
+      "video_timestamp_seconds": 2.736066666666667,
+      "image_path": "images_360/frame_000006_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -0.012163096107542515,
+        "y": 0.013590680435299873,
+        "z": -0.6620787382125854
+      },
+      "orientation": {
+        "qx": -0.0014375210739672184,
+        "qy": -0.0001312814129050821,
+        "qz": -0.003249300643801689,
+        "qw": 0.9999942183494568
+      }
+    },
+    {
+      "frame_id": 7,
+      "video_frame_index": 209,
+      "timestamp": 14.0,
+      "video_timestamp_seconds": 3.486816666666667,
+      "image_path": "images_360/frame_000007_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -0.009047013707458973,
+        "y": 0.013982782140374184,
+        "z": -0.951210081577301
+      },
+      "orientation": {
+        "qx": -0.001835646922700107,
+        "qy": -0.0006070412346161902,
+        "qz": -0.004126934800297022,
+        "qw": 0.9999896287918091
+      }
+    },
+    {
+      "frame_id": 8,
+      "video_frame_index": 239,
+      "timestamp": 16.0,
+      "video_timestamp_seconds": 3.987316666666667,
+      "image_path": "images_360/frame_000008_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 0.021291673183441162,
+        "y": 0.002115570940077305,
+        "z": -1.1560524702072144
+      },
+      "orientation": {
+        "qx": -0.002148672007024288,
+        "qy": -0.0011152072111144662,
+        "qz": -0.004985997918993235,
+        "qw": 0.9999847412109375
+      }
+    },
+    {
+      "frame_id": 9,
+      "video_frame_index": 269,
+      "timestamp": 18.0,
+      "video_timestamp_seconds": 4.487816666666667,
+      "image_path": "images_360/frame_000009_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 0.007586038671433926,
+        "y": 0.017416879534721375,
+        "z": -1.356878638267517
+      },
+      "orientation": {
+        "qx": -0.0022583836689591408,
+        "qy": -0.0015407000901177526,
+        "qz": -0.005693406332284212,
+        "qw": 0.9999805688858032
+      }
+    },
+    {
+      "frame_id": 10,
+      "video_frame_index": 299,
+      "timestamp": 20.0,
+      "video_timestamp_seconds": 4.988316666666667,
+      "image_path": "images_360/frame_000010_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 0.022652113810181618,
+        "y": 0.011592524126172066,
+        "z": -1.5706772804260254
+      },
+      "orientation": {
+        "qx": -0.002490964252501726,
+        "qy": -0.0016550683649256825,
+        "qz": -0.006180498283356428,
+        "qw": 0.9999763369560242
+      }
+    },
+    {
+      "frame_id": 11,
+      "video_frame_index": 344,
+      "timestamp": 23.0,
+      "video_timestamp_seconds": 5.739066666666667,
+      "image_path": "images_360/frame_000011_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 0.04889943450689316,
+        "y": 0.016215354204177856,
+        "z": -1.8553577661514282
+      },
+      "orientation": {
+        "qx": -0.0033265831880271435,
+        "qy": -0.002922332612797618,
+        "qz": -0.007461882196366787,
+        "qw": 0.9999622106552124
+      }
+    },
+    {
+      "frame_id": 12,
+      "video_frame_index": 404,
+      "timestamp": 27.0,
+      "video_timestamp_seconds": 6.740066666666667,
+      "image_path": "images_360/frame_000012_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -0.0534425787627697,
+        "y": 0.013259676285088062,
+        "z": -2.113908052444458
+      },
+      "orientation": {
+        "qx": -0.0045028990134596825,
+        "qy": -0.003207065165042877,
+        "qz": -0.009635932743549347,
+        "qw": 0.9999383687973022
+      }
+    },
+    {
+      "frame_id": 13,
+      "video_frame_index": 494,
+      "timestamp": 33.0,
+      "video_timestamp_seconds": 8.241566666666667,
+      "image_path": "images_360/frame_000013_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -0.2304152399301529,
+        "y": 0.01973101869225502,
+        "z": -2.2661421298980713
+      },
+      "orientation": {
+        "qx": -0.00772071210667491,
+        "qy": -0.004910442512482405,
+        "qz": -0.008972310461103916,
+        "qw": 0.9999182820320129
+      }
+    },
+    {
+      "frame_id": 14,
+      "video_frame_index": 524,
+      "timestamp": 35.0,
+      "video_timestamp_seconds": 8.742066666666666,
+      "image_path": "images_360/frame_000014_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -0.390473335981369,
+        "y": 0.006026257295161486,
+        "z": -2.2632055282592773
+      },
+      "orientation": {
+        "qx": -0.00810333900153637,
+        "qy": -0.005895901937037706,
+        "qz": -0.009056281298398972,
+        "qw": 0.9999088644981384
+      }
+    },
+    {
+      "frame_id": 15,
+      "video_frame_index": 554,
+      "timestamp": 37.0,
+      "video_timestamp_seconds": 9.242566666666667,
+      "image_path": "images_360/frame_000015_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -0.5851710438728333,
+        "y": 0.01966296322643757,
+        "z": -2.2792861461639404
+      },
+      "orientation": {
+        "qx": -0.008462176658213139,
+        "qy": -0.007717298809438944,
+        "qz": -0.009199083782732487,
+        "qw": 0.9998928904533386
+      }
+    },
+    {
+      "frame_id": 16,
+      "video_frame_index": 569,
+      "timestamp": 38.0,
+      "video_timestamp_seconds": 9.492816666666666,
+      "image_path": "images_360/frame_000016_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -0.6938862204551697,
+        "y": 0.012717526406049728,
+        "z": -2.301117181777954
+      },
+      "orientation": {
+        "qx": -0.008405557833611965,
+        "qy": -0.008405856788158417,
+        "qz": -0.008743074722588062,
+        "qw": 0.9998914003372192
+      }
+    },
+    {
+      "frame_id": 17,
+      "video_frame_index": 584,
+      "timestamp": 39.0,
+      "video_timestamp_seconds": 9.743066666666667,
+      "image_path": "images_360/frame_000017_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -0.801992654800415,
+        "y": 0.017815103754401207,
+        "z": -2.298891305923462
+      },
+      "orientation": {
+        "qx": -0.008202259428799152,
+        "qy": -0.009316039271652699,
+        "qz": -0.009044640697538853,
+        "qw": 0.999882698059082
+      }
+    },
+    {
+      "frame_id": 18,
+      "video_frame_index": 599,
+      "timestamp": 40.0,
+      "video_timestamp_seconds": 9.993316666666667,
+      "image_path": "images_360/frame_000018_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -0.9188788533210754,
+        "y": 0.027682850137352943,
+        "z": -2.2693288326263428
+      },
+      "orientation": {
+        "qx": -0.008395753800868988,
+        "qy": -0.009896422736346722,
+        "qz": -0.008894604630768299,
+        "qw": 0.9998763799667358
+      }
+    },
+    {
+      "frame_id": 19,
+      "video_frame_index": 614,
+      "timestamp": 41.0,
+      "video_timestamp_seconds": 10.243566666666668,
+      "image_path": "images_360/frame_000019_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.0259575843811035,
+        "y": 0.013841096311807632,
+        "z": -2.2563719749450684
+      },
+      "orientation": {
+        "qx": -0.007936821319162846,
+        "qy": -0.01100962981581688,
+        "qz": -0.009322470054030418,
+        "qw": 0.9998646378517151
+      }
+    },
+    {
+      "frame_id": 20,
+      "video_frame_index": 629,
+      "timestamp": 42.0,
+      "video_timestamp_seconds": 10.493816666666667,
+      "image_path": "images_360/frame_000020_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.1280919313430786,
+        "y": 0.009173553436994553,
+        "z": -2.2600364685058594
+      },
+      "orientation": {
+        "qx": -0.008217752911150455,
+        "qy": -0.0113406116142869,
+        "qz": -0.00973379798233509,
+        "qw": 0.9998548030853271
+      }
+    },
+    {
+      "frame_id": 21,
+      "video_frame_index": 644,
+      "timestamp": 43.0,
+      "video_timestamp_seconds": 10.744066666666667,
+      "image_path": "images_360/frame_000021_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.1054508686065674,
+        "y": -0.12285791337490082,
+        "z": -2.3354854583740234
+      },
+      "orientation": {
+        "qx": -0.022067716345191002,
+        "qy": -0.029633449390530586,
+        "qz": 0.01113554835319519,
+        "qw": 0.9992554783821106
+      }
+    },
+    {
+      "frame_id": 22,
+      "video_frame_index": 659,
+      "timestamp": 44.0,
+      "video_timestamp_seconds": 10.994316666666668,
+      "image_path": "images_360/frame_000022_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.1488341093063354,
+        "y": -0.0972471833229065,
+        "z": -2.388627767562866
+      },
+      "orientation": {
+        "qx": -0.01635289005935192,
+        "qy": -0.03834686428308487,
+        "qz": 0.013996658846735954,
+        "qw": 0.999032735824585
+      }
+    },
+    {
+      "frame_id": 23,
+      "video_frame_index": 674,
+      "timestamp": 45.0,
+      "video_timestamp_seconds": 11.244566666666667,
+      "image_path": "images_360/frame_000023_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.206520915031433,
+        "y": -0.13982294499874115,
+        "z": -2.4269070625305176
+      },
+      "orientation": {
+        "qx": -0.020568901672959328,
+        "qy": -0.045568373054265976,
+        "qz": 0.017967872321605682,
+        "qw": 0.998587965965271
+      }
+    },
+    {
+      "frame_id": 24,
+      "video_frame_index": 689,
+      "timestamp": 46.0,
+      "video_timestamp_seconds": 11.494816666666667,
+      "image_path": "images_360/frame_000024_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.3008471727371216,
+        "y": -0.16141006350517273,
+        "z": -2.443932056427002
+      },
+      "orientation": {
+        "qx": -0.02270490676164627,
+        "qy": -0.046925995498895645,
+        "qz": 0.02161315456032753,
+        "qw": 0.9984065294265747
+      }
+    },
+    {
+      "frame_id": 25,
+      "video_frame_index": 704,
+      "timestamp": 47.0,
+      "video_timestamp_seconds": 11.745066666666668,
+      "image_path": "images_360/frame_000025_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.1744384765625,
+        "y": -0.08148623257875443,
+        "z": -2.5474586486816406
+      },
+      "orientation": {
+        "qx": -0.005636478774249554,
+        "qy": -0.08144636452198029,
+        "qz": 0.0330076701939106,
+        "qw": 0.9961152076721191
+      }
+    },
+    {
+      "frame_id": 26,
+      "video_frame_index": 719,
+      "timestamp": 48.0,
+      "video_timestamp_seconds": 11.995316666666668,
+      "image_path": "images_360/frame_000026_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.204955816268921,
+        "y": -0.15047481656074524,
+        "z": -2.592664957046509
+      },
+      "orientation": {
+        "qx": -0.01037561148405075,
+        "qy": -0.09298583120107651,
+        "qz": 0.04303548112511635,
+        "qw": 0.9946825504302979
+      }
+    },
+    {
+      "frame_id": 27,
+      "video_frame_index": 734,
+      "timestamp": 49.0,
+      "video_timestamp_seconds": 12.245566666666667,
+      "image_path": "images_360/frame_000027_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.2843681573867798,
+        "y": -0.15517382323741913,
+        "z": -2.6092100143432617
+      },
+      "orientation": {
+        "qx": -0.010014311410486698,
+        "qy": -0.09437032788991928,
+        "qz": 0.04387280344963074,
+        "qw": 0.9945195317268372
+      }
+    },
+    {
+      "frame_id": 28,
+      "video_frame_index": 749,
+      "timestamp": 50.0,
+      "video_timestamp_seconds": 12.495816666666668,
+      "image_path": "images_360/frame_000028_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.2705836296081543,
+        "y": -0.10327871143817902,
+        "z": -2.6549394130706787
+      },
+      "orientation": {
+        "qx": 0.0005461552646011114,
+        "qy": -0.10841505974531174,
+        "qz": 0.050620563328266144,
+        "qw": 0.9928159713745117
+      }
+    },
+    {
+      "frame_id": 29,
+      "video_frame_index": 764,
+      "timestamp": 51.0,
+      "video_timestamp_seconds": 12.746066666666668,
+      "image_path": "images_360/frame_000029_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.142412781715393,
+        "y": -0.12523216009140015,
+        "z": -2.7185184955596924
+      },
+      "orientation": {
+        "qx": 0.004256839398294687,
+        "qy": -0.13864648342132568,
+        "qz": 0.07091719657182693,
+        "qw": 0.9877907633781433
+      }
+    },
+    {
+      "frame_id": 30,
+      "video_frame_index": 779,
+      "timestamp": 52.0,
+      "video_timestamp_seconds": 12.996316666666667,
+      "image_path": "images_360/frame_000030_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.0774006843566895,
+        "y": -0.1820649802684784,
+        "z": -2.795961856842041
+      },
+      "orientation": {
+        "qx": 0.001108282944187522,
+        "qy": -0.16064231097698212,
+        "qz": 0.08187641203403473,
+        "qw": 0.9836099147796631
+      }
+    },
+    {
+      "frame_id": 31,
+      "video_frame_index": 794,
+      "timestamp": 53.0,
+      "video_timestamp_seconds": 13.246566666666668,
+      "image_path": "images_360/frame_000031_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.1835551261901855,
+        "y": -0.19065693020820618,
+        "z": -2.7905349731445312
+      },
+      "orientation": {
+        "qx": -0.0008886449504643679,
+        "qy": -0.15973830223083496,
+        "qz": 0.08231327682733536,
+        "qw": 0.9837217330932617
+      }
+    },
+    {
+      "frame_id": 32,
+      "video_frame_index": 809,
+      "timestamp": 54.0,
+      "video_timestamp_seconds": 13.496816666666668,
+      "image_path": "images_360/frame_000032_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.2913317680358887,
+        "y": -0.17830036580562592,
+        "z": -2.7744500637054443
+      },
+      "orientation": {
+        "qx": 5.7639004808152094e-05,
+        "qy": -0.1580035537481308,
+        "qz": 0.08110750466585159,
+        "qw": 0.9841021299362183
+      }
+    },
+    {
+      "frame_id": 33,
+      "video_frame_index": 824,
+      "timestamp": 55.0,
+      "video_timestamp_seconds": 13.747066666666667,
+      "image_path": "images_360/frame_000033_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.3740217685699463,
+        "y": -0.195552259683609,
+        "z": -2.7717034816741943
+      },
+      "orientation": {
+        "qx": -0.0009124177740886807,
+        "qy": -0.15877676010131836,
+        "qz": 0.08167959004640579,
+        "qw": 0.9839295744895935
+      }
+    },
+    {
+      "frame_id": 34,
+      "video_frame_index": 839,
+      "timestamp": 56.0,
+      "video_timestamp_seconds": 13.997316666666668,
+      "image_path": "images_360/frame_000034_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.4553552865982056,
+        "y": -0.18967153131961823,
+        "z": -2.78448748588562
+      },
+      "orientation": {
+        "qx": -0.0011191305238753557,
+        "qy": -0.16024905443191528,
+        "qz": 0.08101531118154526,
+        "qw": 0.9837462902069092
+      }
+    },
+    {
+      "frame_id": 35,
+      "video_frame_index": 854,
+      "timestamp": 57.0,
+      "video_timestamp_seconds": 14.247566666666668,
+      "image_path": "images_360/frame_000035_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.528228998184204,
+        "y": -0.18181097507476807,
+        "z": -2.7984185218811035
+      },
+      "orientation": {
+        "qx": -0.0012798351235687733,
+        "qy": -0.16055944561958313,
+        "qz": 0.08177635818719864,
+        "qw": 0.9836320281028748
+      }
+    },
+    {
+      "frame_id": 36,
+      "video_frame_index": 869,
+      "timestamp": 58.0,
+      "video_timestamp_seconds": 14.497816666666667,
+      "image_path": "images_360/frame_000036_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.5973087549209595,
+        "y": -0.18799404799938202,
+        "z": -2.8160054683685303
+      },
+      "orientation": {
+        "qx": -0.0015875933459028602,
+        "qy": -0.1609320044517517,
+        "qz": 0.08264930546283722,
+        "qw": 0.983497679233551
+      }
+    },
+    {
+      "frame_id": 37,
+      "video_frame_index": 884,
+      "timestamp": 59.0,
+      "video_timestamp_seconds": 14.748066666666668,
+      "image_path": "images_360/frame_000037_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.663885235786438,
+        "y": -0.1946321725845337,
+        "z": -2.8292620182037354
+      },
+      "orientation": {
+        "qx": -0.0016360541339963675,
+        "qy": -0.16197097301483154,
+        "qz": 0.08306343108415604,
+        "qw": 0.9832919239997864
+      }
+    },
+    {
+      "frame_id": 38,
+      "video_frame_index": 899,
+      "timestamp": 60.0,
+      "video_timestamp_seconds": 14.998316666666668,
+      "image_path": "images_360/frame_000038_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.729785442352295,
+        "y": -0.20095300674438477,
+        "z": -2.836282253265381
+      },
+      "orientation": {
+        "qx": -0.002442686352878809,
+        "qy": -0.1634996384382248,
+        "qz": 0.08419442921876907,
+        "qw": 0.9829413890838623
+      }
+    },
+    {
+      "frame_id": 39,
+      "video_frame_index": 914,
+      "timestamp": 61.0,
+      "video_timestamp_seconds": 15.248566666666667,
+      "image_path": "images_360/frame_000039_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.797187089920044,
+        "y": -0.1922505646944046,
+        "z": -2.8375349044799805
+      },
+      "orientation": {
+        "qx": -0.0025327967014163733,
+        "qy": -0.16436369717121124,
+        "qz": 0.08405417948961258,
+        "qw": 0.9828094840049744
+      }
+    },
+    {
+      "frame_id": 40,
+      "video_frame_index": 929,
+      "timestamp": 62.0,
+      "video_timestamp_seconds": 15.498816666666668,
+      "image_path": "images_360/frame_000040_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.862717628479004,
+        "y": -0.20284977555274963,
+        "z": -2.827793598175049
+      },
+      "orientation": {
+        "qx": -0.002948518143966794,
+        "qy": -0.16472017765045166,
+        "qz": 0.08474507182836533,
+        "qw": 0.982688844203949
+      }
+    },
+    {
+      "frame_id": 41,
+      "video_frame_index": 944,
+      "timestamp": 63.0,
+      "video_timestamp_seconds": 15.749066666666668,
+      "image_path": "images_360/frame_000041_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.9141653776168823,
+        "y": -0.21900574862957,
+        "z": -2.8268232345581055
+      },
+      "orientation": {
+        "qx": -0.004103977233171463,
+        "qy": -0.16571968793869019,
+        "qz": 0.08633770048618317,
+        "qw": 0.9823777675628662
+      }
+    },
+    {
+      "frame_id": 42,
+      "video_frame_index": 959,
+      "timestamp": 64.0,
+      "video_timestamp_seconds": 15.999316666666667,
+      "image_path": "images_360/frame_000042_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.9655715227127075,
+        "y": -0.21696998178958893,
+        "z": -2.825181484222412
+      },
+      "orientation": {
+        "qx": -0.004467707127332687,
+        "qy": -0.16622968018054962,
+        "qz": 0.08656718581914902,
+        "qw": 0.9822698831558228
+      }
+    },
+    {
+      "frame_id": 43,
+      "video_frame_index": 974,
+      "timestamp": 65.0,
+      "video_timestamp_seconds": 16.249566666666666,
+      "image_path": "images_360/frame_000043_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -2.015498399734497,
+        "y": -0.188947856426239,
+        "z": -2.8191423416137695
+      },
+      "orientation": {
+        "qx": -0.0031365659087896347,
+        "qy": -0.16731439530849457,
+        "qz": 0.08309996128082275,
+        "qw": 0.9823904037475586
+      }
+    },
+    {
+      "frame_id": 44,
+      "video_frame_index": 989,
+      "timestamp": 66.0,
+      "video_timestamp_seconds": 16.499816666666668,
+      "image_path": "images_360/frame_000044_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -2.0598881244659424,
+        "y": -0.18638795614242554,
+        "z": -2.8145034313201904
+      },
+      "orientation": {
+        "qx": 0.00584951788187027,
+        "qy": -0.1694553792476654,
+        "qz": 0.09368431568145752,
+        "qw": 0.9810575246810913
+      }
+    },
+    {
+      "frame_id": 45,
+      "video_frame_index": 1004,
+      "timestamp": 67.0,
+      "video_timestamp_seconds": 16.75006666666667,
+      "image_path": "images_360/frame_000045_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.967308521270752,
+        "y": -0.30560240149497986,
+        "z": -2.6860454082489014
+      },
+      "orientation": {
+        "qx": -0.05288495868444443,
+        "qy": -0.22605249285697937,
+        "qz": 0.06033001095056534,
+        "qw": 0.9708060026168823
+      }
+    },
+    {
+      "frame_id": 46,
+      "video_frame_index": 1049,
+      "timestamp": 70.0,
+      "video_timestamp_seconds": 17.50081666666667,
+      "image_path": "images_360/frame_000046_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -2.1903467178344727,
+        "y": -0.2007032036781311,
+        "z": -2.5429575443267822
+      },
+      "orientation": {
+        "qx": -0.0020360155031085014,
+        "qy": -0.17876259982585907,
+        "qz": 0.09539397060871124,
+        "qw": 0.9792547821998596
+      }
+    },
+    {
+      "frame_id": 47,
+      "video_frame_index": 1094,
+      "timestamp": 73.0,
+      "video_timestamp_seconds": 18.25156666666667,
+      "image_path": "images_360/frame_000047_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -2.4037582874298096,
+        "y": -0.19447462260723114,
+        "z": -2.2434499263763428
+      },
+      "orientation": {
+        "qx": -0.0025480538606643677,
+        "qy": -0.14825628697872162,
+        "qz": 0.0842181071639061,
+        "qw": 0.9853532314300537
+      }
+    },
+    {
+      "frame_id": 48,
+      "video_frame_index": 1124,
+      "timestamp": 75.0,
+      "video_timestamp_seconds": 18.752066666666668,
+      "image_path": "images_360/frame_000048_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -2.419811248779297,
+        "y": -0.17078353464603424,
+        "z": -2.0229713916778564
+      },
+      "orientation": {
+        "qx": 0.00021345572895370424,
+        "qy": -0.15507864952087402,
+        "qz": 0.08252297341823578,
+        "qw": 0.9844493865966797
+      }
+    },
+    {
+      "frame_id": 49,
+      "video_frame_index": 1154,
+      "timestamp": 77.0,
+      "video_timestamp_seconds": 19.252566666666667,
+      "image_path": "images_360/frame_000049_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -2.3910629749298096,
+        "y": -0.08838547766208649,
+        "z": -1.7773605585098267
+      },
+      "orientation": {
+        "qx": 0.0038282081950455904,
+        "qy": -0.16004730761051178,
+        "qz": 0.07388445734977722,
+        "qw": 0.9843317866325378
+      }
+    },
+    {
+      "frame_id": 50,
+      "video_frame_index": 1169,
+      "timestamp": 78.0,
+      "video_timestamp_seconds": 19.502816666666668,
+      "image_path": "images_360/frame_000050_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -2.420459270477295,
+        "y": -0.12018164992332458,
+        "z": -1.627126932144165
+      },
+      "orientation": {
+        "qx": 0.00011371988512109965,
+        "qy": -0.15594542026519775,
+        "qz": 0.07304476946592331,
+        "qw": 0.9850597977638245
+      }
+    },
+    {
+      "frame_id": 51,
+      "video_frame_index": 1214,
+      "timestamp": 81.0,
+      "video_timestamp_seconds": 20.253566666666668,
+      "image_path": "images_360/frame_000051_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -2.7334179878234863,
+        "y": -0.07131195068359375,
+        "z": -1.0793850421905518
+      },
+      "orientation": {
+        "qx": 0.000614345830399543,
+        "qy": -0.1206628605723381,
+        "qz": 0.0614532046020031,
+        "qw": 0.990788996219635
+      }
+    },
+    {
+      "frame_id": 52,
+      "video_frame_index": 1244,
+      "timestamp": 83.0,
+      "video_timestamp_seconds": 20.754066666666667,
+      "image_path": "images_360/frame_000052_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -2.788590908050537,
+        "y": -0.08997610956430435,
+        "z": -0.825939953327179
+      },
+      "orientation": {
+        "qx": -0.0029543801210820675,
+        "qy": -0.1211717501282692,
+        "qz": 0.06156444922089577,
+        "qw": 0.9907161593437195
+      }
+    },
+    {
+      "frame_id": 53,
+      "video_frame_index": 1274,
+      "timestamp": 85.0,
+      "video_timestamp_seconds": 21.25456666666667,
+      "image_path": "images_360/frame_000053_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -2.646665096282959,
+        "y": -0.09155172854661942,
+        "z": -0.7545514702796936
+      },
+      "orientation": {
+        "qx": -0.006766066420823336,
+        "qy": -0.1552722007036209,
+        "qz": 0.058970022946596146,
+        "qw": 0.9860870838165283
+      }
+    },
+    {
+      "frame_id": 54,
+      "video_frame_index": 1319,
+      "timestamp": 88.0,
+      "video_timestamp_seconds": 22.00531666666667,
+      "image_path": "images_360/frame_000054_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -2.739345073699951,
+        "y": -0.10099027305841446,
+        "z": -0.5737879872322083
+      },
+      "orientation": {
+        "qx": -0.011454325169324875,
+        "qy": -0.17425483465194702,
+        "qz": 0.05525718256831169,
+        "qw": 0.9830824136734009
+      }
+    },
+    {
+      "frame_id": 55,
+      "video_frame_index": 1364,
+      "timestamp": 91.0,
+      "video_timestamp_seconds": 22.75606666666667,
+      "image_path": "images_360/frame_000055_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -2.977010726928711,
+        "y": -0.0631013885140419,
+        "z": -0.3743547201156616
+      },
+      "orientation": {
+        "qx": -0.004067191854119301,
+        "qy": -0.18068401515483856,
+        "qz": 0.051434896886348724,
+        "qw": 0.9821869134902954
+      }
+    },
+    {
+      "frame_id": 56,
+      "video_frame_index": 1409,
+      "timestamp": 94.0,
+      "video_timestamp_seconds": 23.50681666666667,
+      "image_path": "images_360/frame_000056_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -3.336970567703247,
+        "y": -0.02379259653389454,
+        "z": -0.2169671356678009
+      },
+      "orientation": {
+        "qx": -0.004785715602338314,
+        "qy": -0.15274915099143982,
+        "qz": 0.04574337974190712,
+        "qw": 0.9871945977210999
+      }
+    },
+    {
+      "frame_id": 57,
+      "video_frame_index": 1453,
+      "timestamp": 97.0,
+      "video_timestamp_seconds": 24.240883333333336,
+      "image_path": "images_360/frame_000057_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -3.506483793258667,
+        "y": -0.06050998345017433,
+        "z": -0.41905277967453003
+      },
+      "orientation": {
+        "qx": -0.007354456931352615,
+        "qy": -0.15288004279136658,
+        "qz": 0.04822159931063652,
+        "qw": 0.9870398640632629
+      }
+    },
+    {
+      "frame_id": 58,
+      "video_frame_index": 1588,
+      "timestamp": 106.0,
+      "video_timestamp_seconds": 26.493133333333336,
+      "image_path": "images_360/frame_000058_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -3.4598004817962646,
+        "y": -0.08666451275348663,
+        "z": -0.7067244648933411
+      },
+      "orientation": {
+        "qx": -0.002884768880903721,
+        "qy": -0.1504182070493698,
+        "qz": 0.055184029042720795,
+        "qw": 0.9870765209197998
+      }
+    },
+    {
+      "frame_id": 59,
+      "video_frame_index": 1603,
+      "timestamp": 107.0,
+      "video_timestamp_seconds": 26.743383333333334,
+      "image_path": "images_360/frame_000059_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -3.363726854324341,
+        "y": -0.08947812765836716,
+        "z": -0.7973447442054749
+      },
+      "orientation": {
+        "qx": -0.007594693452119827,
+        "qy": -0.15762647986412048,
+        "qz": 0.054445087909698486,
+        "qw": 0.9859680533409119
+      }
+    },
+    {
+      "frame_id": 60,
+      "video_frame_index": 1618,
+      "timestamp": 108.0,
+      "video_timestamp_seconds": 26.993633333333335,
+      "image_path": "images_360/frame_000060_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -3.280590057373047,
+        "y": -0.07547066360712051,
+        "z": -0.8569586277008057
+      },
+      "orientation": {
+        "qx": -0.008390169590711594,
+        "qy": -0.15911327302455902,
+        "qz": 0.05371250584721565,
+        "qw": 0.9857626557350159
+      }
+    },
+    {
+      "frame_id": 61,
+      "video_frame_index": 1633,
+      "timestamp": 109.0,
+      "video_timestamp_seconds": 27.243883333333336,
+      "image_path": "images_360/frame_000061_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -3.1700339317321777,
+        "y": -0.09013867378234863,
+        "z": -0.9515908360481262
+      },
+      "orientation": {
+        "qx": -0.009721378795802593,
+        "qy": -0.16179417073726654,
+        "qz": 0.05636864900588989,
+        "qw": 0.9851651191711426
+      }
+    },
+    {
+      "frame_id": 62,
+      "video_frame_index": 1648,
+      "timestamp": 110.0,
+      "video_timestamp_seconds": 27.494133333333334,
+      "image_path": "images_360/frame_000062_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -3.0334179401397705,
+        "y": -0.09473832696676254,
+        "z": -1.0760477781295776
+      },
+      "orientation": {
+        "qx": -0.012904031202197075,
+        "qy": -0.1711961030960083,
+        "qz": 0.056882280856370926,
+        "qw": 0.983508825302124
+      }
+    },
+    {
+      "frame_id": 63,
+      "video_frame_index": 1663,
+      "timestamp": 111.0,
+      "video_timestamp_seconds": 27.744383333333335,
+      "image_path": "images_360/frame_000063_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -3.006685733795166,
+        "y": -0.09515100717544556,
+        "z": -0.9782450795173645
+      },
+      "orientation": {
+        "qx": -0.0069708628579974174,
+        "qy": -0.14834538102149963,
+        "qz": 0.06057609245181084,
+        "qw": 0.9870540499687195
+      }
+    },
+    {
+      "frame_id": 64,
+      "video_frame_index": 1678,
+      "timestamp": 112.0,
+      "video_timestamp_seconds": 27.994633333333336,
+      "image_path": "images_360/frame_000064_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -2.908663034439087,
+        "y": -0.08410394191741943,
+        "z": -1.041548490524292
+      },
+      "orientation": {
+        "qx": -0.00574435293674469,
+        "qy": -0.14776964485645294,
+        "qz": 0.061714526265859604,
+        "qw": 0.9870779514312744
+      }
+    },
+    {
+      "frame_id": 65,
+      "video_frame_index": 1693,
+      "timestamp": 113.0,
+      "video_timestamp_seconds": 28.244883333333334,
+      "image_path": "images_360/frame_000065_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -2.802187919616699,
+        "y": -0.07211729884147644,
+        "z": -1.0965890884399414
+      },
+      "orientation": {
+        "qx": -0.004168476909399033,
+        "qy": -0.14642241597175598,
+        "qz": 0.061248473823070526,
+        "qw": 0.9873152375221252
+      }
+    },
+    {
+      "frame_id": 66,
+      "video_frame_index": 1708,
+      "timestamp": 114.0,
+      "video_timestamp_seconds": 28.495133333333335,
+      "image_path": "images_360/frame_000066_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -2.7081377506256104,
+        "y": -0.09458480775356293,
+        "z": -1.1586804389953613
+      },
+      "orientation": {
+        "qx": -0.003407956101000309,
+        "qy": -0.14671123027801514,
+        "qz": 0.06372648477554321,
+        "qw": 0.9871186017990112
+      }
+    },
+    {
+      "frame_id": 67,
+      "video_frame_index": 1723,
+      "timestamp": 115.0,
+      "video_timestamp_seconds": 28.745383333333336,
+      "image_path": "images_360/frame_000067_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -2.6541748046875,
+        "y": -0.07864159345626831,
+        "z": -1.2396985292434692
+      },
+      "orientation": {
+        "qx": -0.0019055084558203816,
+        "qy": -0.1451651006937027,
+        "qz": 0.06257734447717667,
+        "qw": 0.9874250292778015
+      }
+    },
+    {
+      "frame_id": 68,
+      "video_frame_index": 1738,
+      "timestamp": 116.0,
+      "video_timestamp_seconds": 28.995633333333334,
+      "image_path": "images_360/frame_000068_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -2.621320962905884,
+        "y": -0.05460735037922859,
+        "z": -1.3451688289642334
+      },
+      "orientation": {
+        "qx": -0.0006020112195983529,
+        "qy": -0.14565835893154144,
+        "qz": 0.061706047505140305,
+        "qw": 0.9874086976051331
+      }
+    },
+    {
+      "frame_id": 69,
+      "video_frame_index": 1753,
+      "timestamp": 117.0,
+      "video_timestamp_seconds": 29.245883333333335,
+      "image_path": "images_360/frame_000069_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -2.59031343460083,
+        "y": -0.07092197239398956,
+        "z": -1.48524808883667
+      },
+      "orientation": {
+        "qx": -0.0002326513931620866,
+        "qy": -0.1472315788269043,
+        "qz": 0.06153866648674011,
+        "qw": 0.9871859550476074
+      }
+    },
+    {
+      "frame_id": 70,
+      "video_frame_index": 1768,
+      "timestamp": 118.0,
+      "video_timestamp_seconds": 29.496133333333336,
+      "image_path": "images_360/frame_000070_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -2.5711309909820557,
+        "y": -0.07826724648475647,
+        "z": -1.6344808340072632
+      },
+      "orientation": {
+        "qx": 7.964283577166498e-05,
+        "qy": -0.14956560730934143,
+        "qz": 0.06105073168873787,
+        "qw": 0.9868660569190979
+      }
+    },
+    {
+      "frame_id": 71,
+      "video_frame_index": 1783,
+      "timestamp": 119.0,
+      "video_timestamp_seconds": 29.746383333333334,
+      "image_path": "images_360/frame_000071_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -2.5224153995513916,
+        "y": -0.05688092112541199,
+        "z": -1.8005211353302002
+      },
+      "orientation": {
+        "qx": 0.00041076744673773646,
+        "qy": -0.15162459015846252,
+        "qz": 0.061581313610076904,
+        "qw": 0.9865179657936096
+      }
+    },
+    {
+      "frame_id": 72,
+      "video_frame_index": 1798,
+      "timestamp": 120.0,
+      "video_timestamp_seconds": 29.996633333333335,
+      "image_path": "images_360/frame_000072_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -2.4615752696990967,
+        "y": -0.0443262942135334,
+        "z": -1.9704515933990479
+      },
+      "orientation": {
+        "qx": -0.0009890870423987508,
+        "qy": -0.1526537537574768,
+        "qz": 0.06183811277151108,
+        "qw": 0.9863429665565491
+      }
+    },
+    {
+      "frame_id": 73,
+      "video_frame_index": 1813,
+      "timestamp": 121.0,
+      "video_timestamp_seconds": 30.246883333333336,
+      "image_path": "images_360/frame_000073_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -2.4126346111297607,
+        "y": -0.054867684841156006,
+        "z": -2.1482365131378174
+      },
+      "orientation": {
+        "qx": 0.00024981453316286206,
+        "qy": -0.15208695828914642,
+        "qz": 0.0615537166595459,
+        "qw": 0.9864488244056702
+      }
+    },
+    {
+      "frame_id": 74,
+      "video_frame_index": 1828,
+      "timestamp": 122.0,
+      "video_timestamp_seconds": 30.497133333333334,
+      "image_path": "images_360/frame_000074_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -2.390164375305176,
+        "y": -0.06529383361339569,
+        "z": -2.3350963592529297
+      },
+      "orientation": {
+        "qx": -0.00046304016723297536,
+        "qy": -0.15310664474964142,
+        "qz": 0.06126759201288223,
+        "qw": 0.9863082766532898
+      }
+    },
+    {
+      "frame_id": 75,
+      "video_frame_index": 1843,
+      "timestamp": 123.0,
+      "video_timestamp_seconds": 30.747383333333335,
+      "image_path": "images_360/frame_000075_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -2.387218713760376,
+        "y": -0.047975972294807434,
+        "z": -2.511385679244995
+      },
+      "orientation": {
+        "qx": 1.8810509573086165e-05,
+        "qy": -0.15344373881816864,
+        "qz": 0.060690756887197495,
+        "qw": 0.9862919449806213
+      }
+    },
+    {
+      "frame_id": 76,
+      "video_frame_index": 1858,
+      "timestamp": 124.0,
+      "video_timestamp_seconds": 30.997633333333336,
+      "image_path": "images_360/frame_000076_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -2.3811662197113037,
+        "y": -0.04253024235367775,
+        "z": -2.6938836574554443
+      },
+      "orientation": {
+        "qx": 0.0005197710706852376,
+        "qy": -0.15407130122184753,
+        "qz": 0.06075665354728699,
+        "qw": 0.9861899018287659
+      }
+    },
+    {
+      "frame_id": 77,
+      "video_frame_index": 1873,
+      "timestamp": 125.0,
+      "video_timestamp_seconds": 31.247883333333334,
+      "image_path": "images_360/frame_000077_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -2.35021710395813,
+        "y": -0.06746887415647507,
+        "z": -2.858076572418213
+      },
+      "orientation": {
+        "qx": 0.0006052423850633204,
+        "qy": -0.1540776640176773,
+        "qz": 0.06137046962976456,
+        "qw": 0.9861506819725037
+      }
+    },
+    {
+      "frame_id": 78,
+      "video_frame_index": 1888,
+      "timestamp": 126.0,
+      "video_timestamp_seconds": 31.498133333333335,
+      "image_path": "images_360/frame_000078_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -2.298072099685669,
+        "y": -0.0682007297873497,
+        "z": -3.013746500015259
+      },
+      "orientation": {
+        "qx": -0.0003802462015300989,
+        "qy": -0.1545112580060959,
+        "qz": 0.060749344527721405,
+        "qw": 0.9861223101615906
+      }
+    },
+    {
+      "frame_id": 79,
+      "video_frame_index": 1903,
+      "timestamp": 127.0,
+      "video_timestamp_seconds": 31.748383333333337,
+      "image_path": "images_360/frame_000079_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -2.202670097351074,
+        "y": -0.057772159576416016,
+        "z": -3.162649631500244
+      },
+      "orientation": {
+        "qx": -0.0008016444044187665,
+        "qy": -0.1583712100982666,
+        "qz": 0.06091621145606041,
+        "qw": 0.9854996204376221
+      }
+    },
+    {
+      "frame_id": 80,
+      "video_frame_index": 1918,
+      "timestamp": 128.0,
+      "video_timestamp_seconds": 31.998633333333334,
+      "image_path": "images_360/frame_000080_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -2.0872514247894287,
+        "y": -0.053515687584877014,
+        "z": -3.2842154502868652
+      },
+      "orientation": {
+        "qx": 0.0004407413653098047,
+        "qy": -0.16103459894657135,
+        "qz": 0.06216945871710777,
+        "qw": 0.9849893450737
+      }
+    },
+    {
+      "frame_id": 81,
+      "video_frame_index": 1933,
+      "timestamp": 129.0,
+      "video_timestamp_seconds": 32.24888333333333,
+      "image_path": "images_360/frame_000081_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -2.0173604488372803,
+        "y": -0.04357628896832466,
+        "z": -3.3612756729125977
+      },
+      "orientation": {
+        "qx": 0.004100409336388111,
+        "qy": -0.1572316288948059,
+        "qz": 0.06477078050374985,
+        "qw": 0.9854269623756409
+      }
+    },
+    {
+      "frame_id": 82,
+      "video_frame_index": 1948,
+      "timestamp": 130.0,
+      "video_timestamp_seconds": 32.49913333333333,
+      "image_path": "images_360/frame_000082_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.919503092765808,
+        "y": -0.11654412746429443,
+        "z": -3.4605977535247803
+      },
+      "orientation": {
+        "qx": -0.005877933464944363,
+        "qy": -0.1555786430835724,
+        "qz": 0.05879564210772514,
+        "qw": 0.9860548377037048
+      }
+    },
+    {
+      "frame_id": 83,
+      "video_frame_index": 1963,
+      "timestamp": 131.0,
+      "video_timestamp_seconds": 32.749383333333334,
+      "image_path": "images_360/frame_000083_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.7960160970687866,
+        "y": -0.27697575092315674,
+        "z": -3.5501110553741455
+      },
+      "orientation": {
+        "qx": -0.03178737685084343,
+        "qy": -0.15392854809761047,
+        "qz": 0.04099131003022194,
+        "qw": 0.9867197871208191
+      }
+    },
+    {
+      "frame_id": 84,
+      "video_frame_index": 1978,
+      "timestamp": 132.0,
+      "video_timestamp_seconds": 32.999633333333335,
+      "image_path": "images_360/frame_000084_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.6873321533203125,
+        "y": -0.3776400685310364,
+        "z": -3.6323401927948
+      },
+      "orientation": {
+        "qx": -0.04495357349514961,
+        "qy": -0.15181072056293488,
+        "qz": 0.03135025501251221,
+        "qw": 0.986889123916626
+      }
+    },
+    {
+      "frame_id": 85,
+      "video_frame_index": 1993,
+      "timestamp": 133.0,
+      "video_timestamp_seconds": 33.24988333333334,
+      "image_path": "images_360/frame_000085_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.566238284111023,
+        "y": -0.38629648089408875,
+        "z": -3.7189884185791016
+      },
+      "orientation": {
+        "qx": -0.0455593578517437,
+        "qy": -0.15157519280910492,
+        "qz": 0.03175337240099907,
+        "qw": 0.9868847727775574
+      }
+    },
+    {
+      "frame_id": 86,
+      "video_frame_index": 2008,
+      "timestamp": 134.0,
+      "video_timestamp_seconds": 33.50013333333334,
+      "image_path": "images_360/frame_000086_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.4338574409484863,
+        "y": -0.3758862018585205,
+        "z": -3.781726837158203
+      },
+      "orientation": {
+        "qx": -0.044690635055303574,
+        "qy": -0.15198828279972076,
+        "qz": 0.03126714751124382,
+        "qw": 0.9868763089179993
+      }
+    },
+    {
+      "frame_id": 87,
+      "video_frame_index": 2023,
+      "timestamp": 135.0,
+      "video_timestamp_seconds": 33.75038333333333,
+      "image_path": "images_360/frame_000087_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.3075385093688965,
+        "y": -0.36005261540412903,
+        "z": -3.824389934539795
+      },
+      "orientation": {
+        "qx": -0.04469163715839386,
+        "qy": -0.15232692658901215,
+        "qz": 0.031152483075857162,
+        "qw": 0.9868273735046387
+      }
+    },
+    {
+      "frame_id": 88,
+      "video_frame_index": 2038,
+      "timestamp": 136.0,
+      "video_timestamp_seconds": 34.00063333333333,
+      "image_path": "images_360/frame_000088_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.170366644859314,
+        "y": -0.33831924200057983,
+        "z": -3.8441011905670166
+      },
+      "orientation": {
+        "qx": -0.04442236199975014,
+        "qy": -0.15288542211055756,
+        "qz": 0.030729085206985474,
+        "qw": 0.9867665767669678
+      }
+    },
+    {
+      "frame_id": 89,
+      "video_frame_index": 2053,
+      "timestamp": 137.0,
+      "video_timestamp_seconds": 34.250883333333334,
+      "image_path": "images_360/frame_000089_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.0174578428268433,
+        "y": -0.36059725284576416,
+        "z": -3.8400793075561523
+      },
+      "orientation": {
+        "qx": -0.0445067435503006,
+        "qy": -0.1533229649066925,
+        "qz": 0.03062210977077484,
+        "qw": 0.9866988658905029
+      }
+    },
+    {
+      "frame_id": 90,
+      "video_frame_index": 2083,
+      "timestamp": 139.0,
+      "video_timestamp_seconds": 34.75138333333334,
+      "image_path": "images_360/frame_000090_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -0.8210219740867615,
+        "y": -0.3591855764389038,
+        "z": -3.876016616821289
+      },
+      "orientation": {
+        "qx": -0.04413837194442749,
+        "qy": -0.15370219945907593,
+        "qz": 0.029950980097055435,
+        "qw": 0.9866764545440674
+      }
+    },
+    {
+      "frame_id": 91,
+      "video_frame_index": 2143,
+      "timestamp": 143.0,
+      "video_timestamp_seconds": 35.752383333333334,
+      "image_path": "images_360/frame_000091_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -0.7506424784660339,
+        "y": -0.36415624618530273,
+        "z": -4.152989387512207
+      },
+      "orientation": {
+        "qx": -0.04393080249428749,
+        "qy": -0.15410207211971283,
+        "qz": 0.028715457767248154,
+        "qw": 0.9866597056388855
+      }
+    },
+    {
+      "frame_id": 92,
+      "video_frame_index": 2173,
+      "timestamp": 145.0,
+      "video_timestamp_seconds": 36.25288333333334,
+      "image_path": "images_360/frame_000092_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -0.6505947709083557,
+        "y": -0.3588991165161133,
+        "z": -4.27454948425293
+      },
+      "orientation": {
+        "qx": -0.043741870671510696,
+        "qy": -0.1545591950416565,
+        "qz": 0.02837388589978218,
+        "qw": 0.986607015132904
+      }
+    },
+    {
+      "frame_id": 93,
+      "video_frame_index": 2218,
+      "timestamp": 148.0,
+      "video_timestamp_seconds": 37.00363333333333,
+      "image_path": "images_360/frame_000093_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -0.39619681239128113,
+        "y": -0.33044061064720154,
+        "z": -4.628725528717041
+      },
+      "orientation": {
+        "qx": -0.043790917843580246,
+        "qy": -0.1553465873003006,
+        "qz": 0.027876703068614006,
+        "qw": 0.986496090888977
+      }
+    },
+    {
+      "frame_id": 94,
+      "video_frame_index": 2248,
+      "timestamp": 150.0,
+      "video_timestamp_seconds": 37.504133333333336,
+      "image_path": "images_360/frame_000094_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -0.34241119027137756,
+        "y": -0.31366032361984253,
+        "z": -4.915700435638428
+      },
+      "orientation": {
+        "qx": -0.043940477073192596,
+        "qy": -0.15509726107120514,
+        "qz": 0.027950458228588104,
+        "qw": 0.9865249991416931
+      }
+    },
+    {
+      "frame_id": 95,
+      "video_frame_index": 2278,
+      "timestamp": 152.0,
+      "video_timestamp_seconds": 38.00463333333334,
+      "image_path": "images_360/frame_000095_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -0.3255588412284851,
+        "y": -0.34263506531715393,
+        "z": -5.347936630249023
+      },
+      "orientation": {
+        "qx": -0.04382964223623276,
+        "qy": -0.15511441230773926,
+        "qz": 0.028056740760803223,
+        "qw": 0.986525297164917
+      }
+    },
+    {
+      "frame_id": 96,
+      "video_frame_index": 2293,
+      "timestamp": 153.0,
+      "video_timestamp_seconds": 38.25488333333333,
+      "image_path": "images_360/frame_000096_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -0.2783215641975403,
+        "y": -0.3203134536743164,
+        "z": -5.567506313323975
+      },
+      "orientation": {
+        "qx": -0.04392889887094498,
+        "qy": -0.15488730370998383,
+        "qz": 0.02808281220495701,
+        "qw": 0.9865549206733704
+      }
+    },
+    {
+      "frame_id": 97,
+      "video_frame_index": 2308,
+      "timestamp": 154.0,
+      "video_timestamp_seconds": 38.50513333333333,
+      "image_path": "images_360/frame_000097_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -0.20745903253555298,
+        "y": -0.2815225124359131,
+        "z": -5.802637100219727
+      },
+      "orientation": {
+        "qx": -0.04380244016647339,
+        "qy": -0.15524083375930786,
+        "qz": 0.02795368805527687,
+        "qw": 0.9865093231201172
+      }
+    },
+    {
+      "frame_id": 98,
+      "video_frame_index": 2368,
+      "timestamp": 158.0,
+      "video_timestamp_seconds": 39.50613333333334,
+      "image_path": "images_360/frame_000098_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -0.0818999633193016,
+        "y": -0.30882924795150757,
+        "z": -6.794016361236572
+      },
+      "orientation": {
+        "qx": -0.044119324535131454,
+        "qy": -0.15531909465789795,
+        "qz": 0.027539975941181183,
+        "qw": 0.986494779586792
+      }
+    },
+    {
+      "frame_id": 99,
+      "video_frame_index": 2398,
+      "timestamp": 160.0,
+      "video_timestamp_seconds": 40.00663333333333,
+      "image_path": "images_360/frame_000099_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -0.03553394973278046,
+        "y": -0.3081766963005066,
+        "z": -7.2693190574646
+      },
+      "orientation": {
+        "qx": -0.044198259711265564,
+        "qy": -0.154776468873024,
+        "qz": 0.027189286425709724,
+        "qw": 0.9865860939025879
+      }
+    },
+    {
+      "frame_id": 100,
+      "video_frame_index": 2428,
+      "timestamp": 162.0,
+      "video_timestamp_seconds": 40.507133333333336,
+      "image_path": "images_360/frame_000100_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 0.03358819708228111,
+        "y": -0.31007564067840576,
+        "z": -7.752027988433838
+      },
+      "orientation": {
+        "qx": -0.0443829782307148,
+        "qy": -0.15528012812137604,
+        "qz": 0.026689467951655388,
+        "qw": 0.986511766910553
+      }
+    },
+    {
+      "frame_id": 101,
+      "video_frame_index": 2458,
+      "timestamp": 164.0,
+      "video_timestamp_seconds": 41.00763333333334,
+      "image_path": "images_360/frame_000101_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 0.05683118477463722,
+        "y": -0.28264111280441284,
+        "z": -8.200937271118164
+      },
+      "orientation": {
+        "qx": -0.044462960213422775,
+        "qy": -0.15519775450229645,
+        "qz": 0.02645971067249775,
+        "qw": 0.9865275025367737
+      }
+    },
+    {
+      "frame_id": 102,
+      "video_frame_index": 2473,
+      "timestamp": 165.0,
+      "video_timestamp_seconds": 41.25788333333333,
+      "image_path": "images_360/frame_000102_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 0.06313471496105194,
+        "y": -0.2837432324886322,
+        "z": -8.442534446716309
+      },
+      "orientation": {
+        "qx": -0.044106174260377884,
+        "qy": -0.154994934797287,
+        "qz": 0.026382261887192726,
+        "qw": 0.9865778088569641
+      }
+    },
+    {
+      "frame_id": 103,
+      "video_frame_index": 2488,
+      "timestamp": 166.0,
+      "video_timestamp_seconds": 41.50813333333333,
+      "image_path": "images_360/frame_000103_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 0.0912003144621849,
+        "y": -0.30940940976142883,
+        "z": -8.661650657653809
+      },
+      "orientation": {
+        "qx": -0.0443287268280983,
+        "qy": -0.15502364933490753,
+        "qz": 0.026624836027622223,
+        "qw": 0.9865565896034241
+      }
+    },
+    {
+      "frame_id": 104,
+      "video_frame_index": 2518,
+      "timestamp": 168.0,
+      "video_timestamp_seconds": 42.008633333333336,
+      "image_path": "images_360/frame_000104_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 0.17346596717834473,
+        "y": -0.2709537148475647,
+        "z": -9.10573673248291
+      },
+      "orientation": {
+        "qx": -0.04436163976788521,
+        "qy": -0.15511998534202576,
+        "qz": 0.02604164369404316,
+        "qw": 0.9865560531616211
+      }
+    },
+    {
+      "frame_id": 105,
+      "video_frame_index": 2533,
+      "timestamp": 169.0,
+      "video_timestamp_seconds": 42.25888333333334,
+      "image_path": "images_360/frame_000105_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 0.19920939207077026,
+        "y": -0.29730963706970215,
+        "z": -9.353621482849121
+      },
+      "orientation": {
+        "qx": -0.04462683945894241,
+        "qy": -0.15484385192394257,
+        "qz": 0.026058422401547432,
+        "qw": 0.9865865707397461
+      }
+    },
+    {
+      "frame_id": 106,
+      "video_frame_index": 2563,
+      "timestamp": 171.0,
+      "video_timestamp_seconds": 42.75938333333333,
+      "image_path": "images_360/frame_000106_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 0.17938855290412903,
+        "y": -0.33528220653533936,
+        "z": -9.790411949157715
+      },
+      "orientation": {
+        "qx": -0.046225447207689285,
+        "qy": -0.15597449243068695,
+        "qz": 0.02557801827788353,
+        "qw": 0.9863479733467102
+      }
+    },
+    {
+      "frame_id": 107,
+      "video_frame_index": 2593,
+      "timestamp": 173.0,
+      "video_timestamp_seconds": 43.259883333333335,
+      "image_path": "images_360/frame_000107_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 0.1133212298154831,
+        "y": -0.3412782549858093,
+        "z": -10.229028701782227
+      },
+      "orientation": {
+        "qx": -0.04613342881202698,
+        "qy": -0.1552376002073288,
+        "qz": 0.025953250005841255,
+        "qw": 0.9864580035209656
+      }
+    },
+    {
+      "frame_id": 108,
+      "video_frame_index": 2623,
+      "timestamp": 175.0,
+      "video_timestamp_seconds": 43.76038333333334,
+      "image_path": "images_360/frame_000108_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 0.13071133196353912,
+        "y": -0.3095565140247345,
+        "z": -10.69100570678711
+      },
+      "orientation": {
+        "qx": -0.04636864736676216,
+        "qy": -0.15540343523025513,
+        "qz": 0.025976508855819702,
+        "qw": 0.986421525478363
+      }
+    },
+    {
+      "frame_id": 109,
+      "video_frame_index": 2653,
+      "timestamp": 177.0,
+      "video_timestamp_seconds": 44.26088333333333,
+      "image_path": "images_360/frame_000109_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 0.13811089098453522,
+        "y": -0.3316646218299866,
+        "z": -11.179609298706055
+      },
+      "orientation": {
+        "qx": -0.047283776104450226,
+        "qy": -0.15604032576084137,
+        "qz": 0.025835035368800163,
+        "qw": 0.9862802624702454
+      }
+    },
+    {
+      "frame_id": 110,
+      "video_frame_index": 2668,
+      "timestamp": 178.0,
+      "video_timestamp_seconds": 44.51113333333333,
+      "image_path": "images_360/frame_000110_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 0.13560551404953003,
+        "y": -0.33304473757743835,
+        "z": -11.400266647338867
+      },
+      "orientation": {
+        "qx": -0.04749813303351402,
+        "qy": -0.15629418194293976,
+        "qz": 0.026122471317648888,
+        "qw": 0.9862220287322998
+      }
+    },
+    {
+      "frame_id": 111,
+      "video_frame_index": 2683,
+      "timestamp": 179.0,
+      "video_timestamp_seconds": 44.761383333333335,
+      "image_path": "images_360/frame_000111_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 0.11986152827739716,
+        "y": -0.32419705390930176,
+        "z": -11.626431465148926
+      },
+      "orientation": {
+        "qx": -0.04784823954105377,
+        "qy": -0.1557864099740982,
+        "qz": 0.026749137789011,
+        "qw": 0.9862684607505798
+      }
+    },
+    {
+      "frame_id": 112,
+      "video_frame_index": 2698,
+      "timestamp": 180.0,
+      "video_timestamp_seconds": 45.011633333333336,
+      "image_path": "images_360/frame_000112_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 0.1397009789943695,
+        "y": -0.360871821641922,
+        "z": -11.847003936767578
+      },
+      "orientation": {
+        "qx": -0.0480741485953331,
+        "qy": -0.15610454976558685,
+        "qz": 0.02714657410979271,
+        "qw": 0.9861966371536255
+      }
+    },
+    {
+      "frame_id": 113,
+      "video_frame_index": 2728,
+      "timestamp": 182.0,
+      "video_timestamp_seconds": 45.51213333333334,
+      "image_path": "images_360/frame_000113_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 0.24825304746627808,
+        "y": -0.3561951816082001,
+        "z": -12.230734825134277
+      },
+      "orientation": {
+        "qx": -0.04868016391992569,
+        "qy": -0.1570204347372055,
+        "qz": 0.026875970885157585,
+        "qw": 0.9860279560089111
+      }
+    },
+    {
+      "frame_id": 114,
+      "video_frame_index": 2743,
+      "timestamp": 183.0,
+      "video_timestamp_seconds": 45.76238333333333,
+      "image_path": "images_360/frame_000114_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 0.31629082560539246,
+        "y": -0.3403797149658203,
+        "z": -12.421708106994629
+      },
+      "orientation": {
+        "qx": -0.04821016266942024,
+        "qy": -0.1571207195520401,
+        "qz": 0.026274817064404488,
+        "qw": 0.9860522747039795
+      }
+    },
+    {
+      "frame_id": 115,
+      "video_frame_index": 2773,
+      "timestamp": 185.0,
+      "video_timestamp_seconds": 46.262883333333335,
+      "image_path": "images_360/frame_000115_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 0.4732349216938019,
+        "y": -0.3451482057571411,
+        "z": -12.765762329101562
+      },
+      "orientation": {
+        "qx": -0.048154789954423904,
+        "qy": -0.15713255107402802,
+        "qz": 0.02587008662521839,
+        "qw": 0.9860631823539734
+      }
+    },
+    {
+      "frame_id": 116,
+      "video_frame_index": 2803,
+      "timestamp": 187.0,
+      "video_timestamp_seconds": 46.76338333333334,
+      "image_path": "images_360/frame_000116_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 0.5902928709983826,
+        "y": -0.3841765224933624,
+        "z": -13.057751655578613
+      },
+      "orientation": {
+        "qx": -0.04928451031446457,
+        "qy": -0.15402790904045105,
+        "qz": 0.027986299246549606,
+        "qw": 0.9864409565925598
+      }
+    },
+    {
+      "frame_id": 117,
+      "video_frame_index": 2848,
+      "timestamp": 190.0,
+      "video_timestamp_seconds": 47.514133333333334,
+      "image_path": "images_360/frame_000117_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 1.084775447845459,
+        "y": -0.3188138008117676,
+        "z": -13.158827781677246
+      },
+      "orientation": {
+        "qx": -0.047042425721883774,
+        "qy": -0.1599670946598053,
+        "qz": 0.02955367974936962,
+        "qw": 0.9855586886405945
+      }
+    },
+    {
+      "frame_id": 118,
+      "video_frame_index": 2892,
+      "timestamp": 193.0,
+      "video_timestamp_seconds": 48.248200000000004,
+      "image_path": "images_360/frame_000118_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 1.1585664749145508,
+        "y": -0.3562090992927551,
+        "z": -13.217779159545898
+      },
+      "orientation": {
+        "qx": -0.047746576368808746,
+        "qy": -0.1527940034866333,
+        "qz": 0.029313012957572937,
+        "qw": 0.9866689443588257
+      }
+    },
+    {
+      "frame_id": 119,
+      "video_frame_index": 2922,
+      "timestamp": 195.0,
+      "video_timestamp_seconds": 48.7487,
+      "image_path": "images_360/frame_000119_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 1.2844462394714355,
+        "y": -0.3894476294517517,
+        "z": -13.224361419677734
+      },
+      "orientation": {
+        "qx": -0.049233872443437576,
+        "qy": -0.14979584515094757,
+        "qz": 0.029512640088796616,
+        "qw": 0.9870494604110718
+      }
+    },
+    {
+      "frame_id": 120,
+      "video_frame_index": 2952,
+      "timestamp": 197.0,
+      "video_timestamp_seconds": 49.2492,
+      "image_path": "images_360/frame_000120_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 1.5955450534820557,
+        "y": -0.3942056894302368,
+        "z": -13.119831085205078
+      },
+      "orientation": {
+        "qx": -0.04940366372466087,
+        "qy": -0.14989633858203888,
+        "qz": 0.029799871146678925,
+        "qw": 0.9870167970657349
+      }
+    },
+    {
+      "frame_id": 121,
+      "video_frame_index": 2982,
+      "timestamp": 199.0,
+      "video_timestamp_seconds": 49.749700000000004,
+      "image_path": "images_360/frame_000121_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 1.8925601243972778,
+        "y": -0.42658624053001404,
+        "z": -12.960053443908691
+      },
+      "orientation": {
+        "qx": -0.049282509833574295,
+        "qy": -0.14949283003807068,
+        "qz": 0.030807597562670708,
+        "qw": 0.9870529174804688
+      }
+    },
+    {
+      "frame_id": 122,
+      "video_frame_index": 2997,
+      "timestamp": 200.0,
+      "video_timestamp_seconds": 49.999950000000005,
+      "image_path": "images_360/frame_000122_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 2.0622177124023438,
+        "y": -0.4162382185459137,
+        "z": -12.9376220703125
+      },
+      "orientation": {
+        "qx": -0.04927700757980347,
+        "qy": -0.14868046343326569,
+        "qz": 0.03059902973473072,
+        "qw": 0.9871824383735657
+      }
+    },
+    {
+      "frame_id": 123,
+      "video_frame_index": 3012,
+      "timestamp": 201.0,
+      "video_timestamp_seconds": 50.2502,
+      "image_path": "images_360/frame_000123_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 2.3320000171661377,
+        "y": -0.3774249851703644,
+        "z": -12.938044548034668
+      },
+      "orientation": {
+        "qx": -0.0483965203166008,
+        "qy": -0.14931169152259827,
+        "qz": 0.03047783114016056,
+        "qw": 0.9871348738670349
+      }
+    },
+    {
+      "frame_id": 124,
+      "video_frame_index": 3027,
+      "timestamp": 202.0,
+      "video_timestamp_seconds": 50.500449999999994,
+      "image_path": "images_360/frame_000124_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 2.613924980163574,
+        "y": -0.3634844422340393,
+        "z": -12.916321754455566
+      },
+      "orientation": {
+        "qx": -0.04764067009091377,
+        "qy": -0.15058663487434387,
+        "qz": 0.029817020520567894,
+        "qw": 0.9869983792304993
+      }
+    },
+    {
+      "frame_id": 125,
+      "video_frame_index": 3042,
+      "timestamp": 203.0,
+      "video_timestamp_seconds": 50.7507,
+      "image_path": "images_360/frame_000125_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 2.84647274017334,
+        "y": -0.33936822414398193,
+        "z": -12.899490356445312
+      },
+      "orientation": {
+        "qx": -0.04701332375407219,
+        "qy": -0.15109357237815857,
+        "qz": 0.029644832015037537,
+        "qw": 0.9869566559791565
+      }
+    },
+    {
+      "frame_id": 126,
+      "video_frame_index": 3057,
+      "timestamp": 204.0,
+      "video_timestamp_seconds": 51.00095,
+      "image_path": "images_360/frame_000126_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 3.0817179679870605,
+        "y": -0.30535486340522766,
+        "z": -12.888422966003418
+      },
+      "orientation": {
+        "qx": -0.046727776527404785,
+        "qy": -0.1520744413137436,
+        "qz": 0.029949059709906578,
+        "qw": 0.9868093729019165
+      }
+    },
+    {
+      "frame_id": 127,
+      "video_frame_index": 3072,
+      "timestamp": 205.0,
+      "video_timestamp_seconds": 51.251200000000004,
+      "image_path": "images_360/frame_000127_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 3.3389644622802734,
+        "y": -0.3016416132450104,
+        "z": -12.846022605895996
+      },
+      "orientation": {
+        "qx": -0.046219419687986374,
+        "qy": -0.15220233798027039,
+        "qz": 0.029361404478549957,
+        "qw": 0.9868316054344177
+      }
+    },
+    {
+      "frame_id": 128,
+      "video_frame_index": 3087,
+      "timestamp": 206.0,
+      "video_timestamp_seconds": 51.501450000000006,
+      "image_path": "images_360/frame_000128_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 3.5683629512786865,
+        "y": -0.28361275792121887,
+        "z": -12.850857734680176
+      },
+      "orientation": {
+        "qx": -0.045172616839408875,
+        "qy": -0.15255650877952576,
+        "qz": 0.028782568871974945,
+        "qw": 0.9868422150611877
+      }
+    },
+    {
+      "frame_id": 129,
+      "video_frame_index": 3102,
+      "timestamp": 207.0,
+      "video_timestamp_seconds": 51.7517,
+      "image_path": "images_360/frame_000129_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 3.7690160274505615,
+        "y": -0.24338169395923615,
+        "z": -12.90025520324707
+      },
+      "orientation": {
+        "qx": -0.044392552226781845,
+        "qy": -0.15194350481033325,
+        "qz": 0.027658870443701744,
+        "qw": 0.9870044589042664
+      }
+    },
+    {
+      "frame_id": 130,
+      "video_frame_index": 3117,
+      "timestamp": 208.0,
+      "video_timestamp_seconds": 52.00195000000001,
+      "image_path": "images_360/frame_000130_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 3.925058364868164,
+        "y": -0.21575449407100677,
+        "z": -12.964285850524902
+      },
+      "orientation": {
+        "qx": -0.04303895682096481,
+        "qy": -0.1501086950302124,
+        "qz": 0.02683364599943161,
+        "qw": 0.9873678684234619
+      }
+    },
+    {
+      "frame_id": 131,
+      "video_frame_index": 3132,
+      "timestamp": 209.0,
+      "video_timestamp_seconds": 52.2522,
+      "image_path": "images_360/frame_000131_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 4.137357711791992,
+        "y": -0.21694190800189972,
+        "z": -13.007153511047363
+      },
+      "orientation": {
+        "qx": -0.04272694140672684,
+        "qy": -0.15037274360656738,
+        "qz": 0.02683667093515396,
+        "qw": 0.9873403906822205
+      }
+    },
+    {
+      "frame_id": 132,
+      "video_frame_index": 3147,
+      "timestamp": 210.0,
+      "video_timestamp_seconds": 52.50245,
+      "image_path": "images_360/frame_000132_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 4.338269233703613,
+        "y": -0.2104353904724121,
+        "z": -13.02758502960205
+      },
+      "orientation": {
+        "qx": -0.042729876935482025,
+        "qy": -0.15079137682914734,
+        "qz": 0.026196548715233803,
+        "qw": 0.9872943162918091
+      }
+    },
+    {
+      "frame_id": 133,
+      "video_frame_index": 3177,
+      "timestamp": 212.0,
+      "video_timestamp_seconds": 53.002950000000006,
+      "image_path": "images_360/frame_000133_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 4.761183738708496,
+        "y": -0.1934514343738556,
+        "z": -13.054108619689941
+      },
+      "orientation": {
+        "qx": -0.042623791843652725,
+        "qy": -0.1521061211824417,
+        "qz": 0.02558807097375393,
+        "qw": 0.9871134161949158
+      }
+    },
+    {
+      "frame_id": 134,
+      "video_frame_index": 3207,
+      "timestamp": 214.0,
+      "video_timestamp_seconds": 53.50345,
+      "image_path": "images_360/frame_000134_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 5.176163673400879,
+        "y": -0.2407526969909668,
+        "z": -13.114788055419922
+      },
+      "orientation": {
+        "qx": -0.04332699254155159,
+        "qy": -0.15369489789009094,
+        "qz": 0.025037799030542374,
+        "qw": 0.986850380897522
+      }
+    },
+    {
+      "frame_id": 135,
+      "video_frame_index": 3237,
+      "timestamp": 216.0,
+      "video_timestamp_seconds": 54.00395,
+      "image_path": "images_360/frame_000135_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 5.537964344024658,
+        "y": -0.2819652855396271,
+        "z": -13.21176815032959
+      },
+      "orientation": {
+        "qx": -0.04423904791474342,
+        "qy": -0.15333469212055206,
+        "qz": 0.02454131282866001,
+        "qw": 0.9868788123130798
+      }
+    },
+    {
+      "frame_id": 136,
+      "video_frame_index": 3267,
+      "timestamp": 218.0,
+      "video_timestamp_seconds": 54.504450000000006,
+      "image_path": "images_360/frame_000136_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 5.924006462097168,
+        "y": -0.24824854731559753,
+        "z": -13.262289047241211
+      },
+      "orientation": {
+        "qx": -0.04337003082036972,
+        "qy": -0.15479323267936707,
+        "qz": 0.02390553057193756,
+        "qw": 0.9867045879364014
+      }
+    },
+    {
+      "frame_id": 137,
+      "video_frame_index": 3327,
+      "timestamp": 222.0,
+      "video_timestamp_seconds": 55.50545,
+      "image_path": "images_360/frame_000137_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.336198806762695,
+        "y": -0.26538321375846863,
+        "z": -13.584014892578125
+      },
+      "orientation": {
+        "qx": -0.043768685311079025,
+        "qy": -0.1570960283279419,
+        "qz": 0.02073385752737522,
+        "qw": 0.9863956570625305
+      }
+    },
+    {
+      "frame_id": 138,
+      "video_frame_index": 3357,
+      "timestamp": 224.0,
+      "video_timestamp_seconds": 56.005950000000006,
+      "image_path": "images_360/frame_000138_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.445304870605469,
+        "y": -0.2871053218841553,
+        "z": -13.940675735473633
+      },
+      "orientation": {
+        "qx": -0.04391635209321976,
+        "qy": -0.15740558505058289,
+        "qz": 0.020409030839800835,
+        "qw": 0.9863461256027222
+      }
+    },
+    {
+      "frame_id": 139,
+      "video_frame_index": 3387,
+      "timestamp": 226.0,
+      "video_timestamp_seconds": 56.50645,
+      "image_path": "images_360/frame_000139_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.555078029632568,
+        "y": -0.27855077385902405,
+        "z": -14.32076358795166
+      },
+      "orientation": {
+        "qx": -0.0442778505384922,
+        "qy": -0.1578451693058014,
+        "qz": 0.019518958404660225,
+        "qw": 0.9862778782844543
+      }
+    },
+    {
+      "frame_id": 140,
+      "video_frame_index": 3417,
+      "timestamp": 228.0,
+      "video_timestamp_seconds": 57.00695,
+      "image_path": "images_360/frame_000140_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.622135639190674,
+        "y": -0.3192468285560608,
+        "z": -14.707347869873047
+      },
+      "orientation": {
+        "qx": -0.04509005323052406,
+        "qy": -0.15812291204929352,
+        "qz": 0.018775535747408867,
+        "qw": 0.9862110018730164
+      }
+    },
+    {
+      "frame_id": 141,
+      "video_frame_index": 3432,
+      "timestamp": 229.0,
+      "video_timestamp_seconds": 57.257200000000005,
+      "image_path": "images_360/frame_000141_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.633962154388428,
+        "y": -0.3038698136806488,
+        "z": -14.912832260131836
+      },
+      "orientation": {
+        "qx": -0.04524044319987297,
+        "qy": -0.15810993313789368,
+        "qz": 0.018586209043860435,
+        "qw": 0.9862100481987
+      }
+    },
+    {
+      "frame_id": 142,
+      "video_frame_index": 3447,
+      "timestamp": 230.0,
+      "video_timestamp_seconds": 57.507450000000006,
+      "image_path": "images_360/frame_000142_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.664578437805176,
+        "y": -0.31054815649986267,
+        "z": -15.134603500366211
+      },
+      "orientation": {
+        "qx": -0.04514722526073456,
+        "qy": -0.15817956626415253,
+        "qz": 0.019103344529867172,
+        "qw": 0.9861927032470703
+      }
+    },
+    {
+      "frame_id": 143,
+      "video_frame_index": 3462,
+      "timestamp": 231.0,
+      "video_timestamp_seconds": 57.7577,
+      "image_path": "images_360/frame_000143_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.686955451965332,
+        "y": -0.31619375944137573,
+        "z": -15.360055923461914
+      },
+      "orientation": {
+        "qx": -0.04548562690615654,
+        "qy": -0.1582459807395935,
+        "qz": 0.018673952668905258,
+        "qw": 0.9861747622489929
+      }
+    },
+    {
+      "frame_id": 144,
+      "video_frame_index": 3477,
+      "timestamp": 232.0,
+      "video_timestamp_seconds": 58.00795,
+      "image_path": "images_360/frame_000144_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.714231967926025,
+        "y": -0.2842552661895752,
+        "z": -15.561491012573242
+      },
+      "orientation": {
+        "qx": -0.04557705298066139,
+        "qy": -0.1585133671760559,
+        "qz": 0.01856078952550888,
+        "qw": 0.9861302375793457
+      }
+    },
+    {
+      "frame_id": 145,
+      "video_frame_index": 3492,
+      "timestamp": 233.0,
+      "video_timestamp_seconds": 58.2582,
+      "image_path": "images_360/frame_000145_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.72823429107666,
+        "y": -0.2922940254211426,
+        "z": -15.777341842651367
+      },
+      "orientation": {
+        "qx": -0.04597928747534752,
+        "qy": -0.15846087038516998,
+        "qz": 0.0181427001953125,
+        "qw": 0.9861271977424622
+      }
+    },
+    {
+      "frame_id": 146,
+      "video_frame_index": 3507,
+      "timestamp": 234.0,
+      "video_timestamp_seconds": 58.50845,
+      "image_path": "images_360/frame_000146_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.746963977813721,
+        "y": -0.3133733868598938,
+        "z": -15.962068557739258
+      },
+      "orientation": {
+        "qx": -0.046404171735048294,
+        "qy": -0.15932849049568176,
+        "qz": 0.017725346609950066,
+        "qw": 0.985974907875061
+      }
+    },
+    {
+      "frame_id": 147,
+      "video_frame_index": 3537,
+      "timestamp": 236.0,
+      "video_timestamp_seconds": 59.008950000000006,
+      "image_path": "images_360/frame_000147_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.648305416107178,
+        "y": -0.3143249452114105,
+        "z": -16.319997787475586
+      },
+      "orientation": {
+        "qx": -0.04709087684750557,
+        "qy": -0.1594230681657791,
+        "qz": 0.017208386212587357,
+        "qw": 0.9859364628791809
+      }
+    },
+    {
+      "frame_id": 148,
+      "video_frame_index": 3582,
+      "timestamp": 239.0,
+      "video_timestamp_seconds": 59.7597,
+      "image_path": "images_360/frame_000148_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.456445217132568,
+        "y": -0.3765815794467926,
+        "z": -16.71333122253418
+      },
+      "orientation": {
+        "qx": -0.048698682337999344,
+        "qy": -0.1608082354068756,
+        "qz": 0.016412870958447456,
+        "qw": 0.9856467247009277
+      }
+    },
+    {
+      "frame_id": 149,
+      "video_frame_index": 3627,
+      "timestamp": 242.0,
+      "video_timestamp_seconds": 60.510450000000006,
+      "image_path": "images_360/frame_000149_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.176368236541748,
+        "y": -0.38679081201553345,
+        "z": -16.985126495361328
+      },
+      "orientation": {
+        "qx": -0.049843065440654755,
+        "qy": -0.1622494012117386,
+        "qz": 0.018630480393767357,
+        "qw": 0.9853143692016602
+      }
+    },
+    {
+      "frame_id": 150,
+      "video_frame_index": 3657,
+      "timestamp": 244.0,
+      "video_timestamp_seconds": 61.01095,
+      "image_path": "images_360/frame_000150_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 5.811033248901367,
+        "y": -0.39061498641967773,
+        "z": -17.135229110717773
+      },
+      "orientation": {
+        "qx": -0.049470171332359314,
+        "qy": -0.162155419588089,
+        "qz": 0.018901312723755836,
+        "qw": 0.9853435754776001
+      }
+    },
+    {
+      "frame_id": 151,
+      "video_frame_index": 3687,
+      "timestamp": 246.0,
+      "video_timestamp_seconds": 61.51145,
+      "image_path": "images_360/frame_000151_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 5.425723075866699,
+        "y": -0.3714459240436554,
+        "z": -17.2868709564209
+      },
+      "orientation": {
+        "qx": -0.0498778261244297,
+        "qy": -0.16193580627441406,
+        "qz": 0.019593285396695137,
+        "qw": 0.9853448867797852
+      }
+    },
+    {
+      "frame_id": 152,
+      "video_frame_index": 3717,
+      "timestamp": 248.0,
+      "video_timestamp_seconds": 62.011950000000006,
+      "image_path": "images_360/frame_000152_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 5.097622871398926,
+        "y": -0.42462635040283203,
+        "z": -17.346290588378906
+      },
+      "orientation": {
+        "qx": -0.05082111805677414,
+        "qy": -0.16408143937587738,
+        "qz": 0.020240718498826027,
+        "qw": 0.9849282503128052
+      }
+    },
+    {
+      "frame_id": 153,
+      "video_frame_index": 3747,
+      "timestamp": 250.0,
+      "video_timestamp_seconds": 62.51245,
+      "image_path": "images_360/frame_000153_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 4.634731769561768,
+        "y": -0.42251020669937134,
+        "z": -17.317245483398438
+      },
+      "orientation": {
+        "qx": -0.050619568675756454,
+        "qy": -0.16426986455917358,
+        "qz": 0.02053231932222843,
+        "qw": 0.9849013686180115
+      }
+    },
+    {
+      "frame_id": 154,
+      "video_frame_index": 3777,
+      "timestamp": 252.0,
+      "video_timestamp_seconds": 63.012950000000004,
+      "image_path": "images_360/frame_000154_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 4.1251983642578125,
+        "y": -0.3952767848968506,
+        "z": -17.342121124267578
+      },
+      "orientation": {
+        "qx": -0.050314564257860184,
+        "qy": -0.1644982546567917,
+        "qz": 0.021352635696530342,
+        "qw": 0.9848616719245911
+      }
+    },
+    {
+      "frame_id": 155,
+      "video_frame_index": 3822,
+      "timestamp": 255.0,
+      "video_timestamp_seconds": 63.7637,
+      "image_path": "images_360/frame_000155_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 3.622769355773926,
+        "y": -0.471664160490036,
+        "z": -17.32684898376465
+      },
+      "orientation": {
+        "qx": -0.05122000724077225,
+        "qy": -0.1656491756439209,
+        "qz": 0.02147296629846096,
+        "qw": 0.9846201539039612
+      }
+    },
+    {
+      "frame_id": 156,
+      "video_frame_index": 3852,
+      "timestamp": 257.0,
+      "video_timestamp_seconds": 64.2642,
+      "image_path": "images_360/frame_000156_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 3.170370101928711,
+        "y": -0.48945552110671997,
+        "z": -17.28827667236328
+      },
+      "orientation": {
+        "qx": -0.051553525030612946,
+        "qy": -0.16589511930942535,
+        "qz": 0.021579667925834656,
+        "qw": 0.9845581650733948
+      }
+    },
+    {
+      "frame_id": 157,
+      "video_frame_index": 3882,
+      "timestamp": 259.0,
+      "video_timestamp_seconds": 64.7647,
+      "image_path": "images_360/frame_000157_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 2.663663625717163,
+        "y": -0.4751351475715637,
+        "z": -17.333948135375977
+      },
+      "orientation": {
+        "qx": -0.0515618734061718,
+        "qy": -0.16584695875644684,
+        "qz": 0.022072309628129005,
+        "qw": 0.9845554828643799
+      }
+    },
+    {
+      "frame_id": 158,
+      "video_frame_index": 3912,
+      "timestamp": 261.0,
+      "video_timestamp_seconds": 65.26520000000001,
+      "image_path": "images_360/frame_000158_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 2.216820478439331,
+        "y": -0.5023296475410461,
+        "z": -17.32546043395996
+      },
+      "orientation": {
+        "qx": -0.05170085281133652,
+        "qy": -0.16631054878234863,
+        "qz": 0.022522078827023506,
+        "qw": 0.9844599366188049
+      }
+    },
+    {
+      "frame_id": 159,
+      "video_frame_index": 3942,
+      "timestamp": 263.0,
+      "video_timestamp_seconds": 65.76570000000001,
+      "image_path": "images_360/frame_000159_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 1.7755542993545532,
+        "y": -0.4953181743621826,
+        "z": -17.254762649536133
+      },
+      "orientation": {
+        "qx": -0.05198793485760689,
+        "qy": -0.1663547307252884,
+        "qz": 0.023282242938876152,
+        "qw": 0.9844200015068054
+      }
+    },
+    {
+      "frame_id": 160,
+      "video_frame_index": 3972,
+      "timestamp": 265.0,
+      "video_timestamp_seconds": 66.2662,
+      "image_path": "images_360/frame_000160_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 1.321694016456604,
+        "y": -0.5103822350502014,
+        "z": -17.227540969848633
+      },
+      "orientation": {
+        "qx": -0.05230811983346939,
+        "qy": -0.1666107475757599,
+        "qz": 0.02372165024280548,
+        "qw": 0.9843483567237854
+      }
+    },
+    {
+      "frame_id": 161,
+      "video_frame_index": 4002,
+      "timestamp": 267.0,
+      "video_timestamp_seconds": 66.7667,
+      "image_path": "images_360/frame_000161_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 0.891793429851532,
+        "y": -0.5256600379943848,
+        "z": -17.24574089050293
+      },
+      "orientation": {
+        "qx": -0.05257243290543556,
+        "qy": -0.1668713241815567,
+        "qz": 0.024453269317746162,
+        "qw": 0.9842727780342102
+      }
+    },
+    {
+      "frame_id": 162,
+      "video_frame_index": 4032,
+      "timestamp": 269.0,
+      "video_timestamp_seconds": 67.2672,
+      "image_path": "images_360/frame_000162_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 0.537749707698822,
+        "y": -0.5610716342926025,
+        "z": -17.196786880493164
+      },
+      "orientation": {
+        "qx": -0.0533432699739933,
+        "qy": -0.16681469976902008,
+        "qz": 0.025291647762060165,
+        "qw": 0.9842197895050049
+      }
+    },
+    {
+      "frame_id": 163,
+      "video_frame_index": 4062,
+      "timestamp": 271.0,
+      "video_timestamp_seconds": 67.7677,
+      "image_path": "images_360/frame_000163_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 0.1093122661113739,
+        "y": -0.5812497138977051,
+        "z": -17.184417724609375
+      },
+      "orientation": {
+        "qx": -0.05306670069694519,
+        "qy": -0.16645585000514984,
+        "qz": 0.025158848613500595,
+        "qw": 0.9842993021011353
+      }
+    },
+    {
+      "frame_id": 164,
+      "video_frame_index": 4092,
+      "timestamp": 273.0,
+      "video_timestamp_seconds": 68.26820000000001,
+      "image_path": "images_360/frame_000164_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -0.31565743684768677,
+        "y": -0.5559930801391602,
+        "z": -17.24847412109375
+      },
+      "orientation": {
+        "qx": -0.05333741754293442,
+        "qy": -0.16609635949134827,
+        "qz": 0.02595990151166916,
+        "qw": 0.9843241572380066
+      }
+    },
+    {
+      "frame_id": 165,
+      "video_frame_index": 4122,
+      "timestamp": 275.0,
+      "video_timestamp_seconds": 68.76870000000001,
+      "image_path": "images_360/frame_000165_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -0.7201759219169617,
+        "y": -0.5861489176750183,
+        "z": -17.319711685180664
+      },
+      "orientation": {
+        "qx": -0.053054213523864746,
+        "qy": -0.16557341814041138,
+        "qz": 0.02623385190963745,
+        "qw": 0.9844199419021606
+      }
+    },
+    {
+      "frame_id": 166,
+      "video_frame_index": 4152,
+      "timestamp": 277.0,
+      "video_timestamp_seconds": 69.2692,
+      "image_path": "images_360/frame_000166_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.0634806156158447,
+        "y": -0.5985819697380066,
+        "z": -17.34410285949707
+      },
+      "orientation": {
+        "qx": -0.05348774790763855,
+        "qy": -0.1655815690755844,
+        "qz": 0.026515284553170204,
+        "qw": 0.9843878746032715
+      }
+    },
+    {
+      "frame_id": 167,
+      "video_frame_index": 4182,
+      "timestamp": 279.0,
+      "video_timestamp_seconds": 69.7697,
+      "image_path": "images_360/frame_000167_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.4081103801727295,
+        "y": -0.6373448371887207,
+        "z": -17.41273307800293
+      },
+      "orientation": {
+        "qx": -0.05409844592213631,
+        "qy": -0.1652710884809494,
+        "qz": 0.02742813527584076,
+        "qw": 0.9843817949295044
+      }
+    },
+    {
+      "frame_id": 168,
+      "video_frame_index": 4227,
+      "timestamp": 282.0,
+      "video_timestamp_seconds": 70.52045,
+      "image_path": "images_360/frame_000168_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.775313138961792,
+        "y": -0.6528573036193848,
+        "z": -17.573657989501953
+      },
+      "orientation": {
+        "qx": -0.054644640535116196,
+        "qy": -0.16541536152362823,
+        "qz": 0.027690449729561806,
+        "qw": 0.9843198657035828
+      }
+    },
+    {
+      "frame_id": 169,
+      "video_frame_index": 4361,
+      "timestamp": 291.0,
+      "video_timestamp_seconds": 72.75601666666667,
+      "image_path": "images_360/frame_000169_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.6426887512207031,
+        "y": -0.6664981842041016,
+        "z": -17.65485382080078
+      },
+      "orientation": {
+        "qx": -0.0545780174434185,
+        "qy": -0.1608259379863739,
+        "qz": 0.031959373503923416,
+        "qw": 0.9849545359611511
+      }
+    },
+    {
+      "frame_id": 170,
+      "video_frame_index": 4391,
+      "timestamp": 293.0,
+      "video_timestamp_seconds": 73.25651666666667,
+      "image_path": "images_360/frame_000170_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -1.3226958513259888,
+        "y": -0.66339510679245,
+        "z": -17.665552139282227
+      },
+      "orientation": {
+        "qx": -0.05471193790435791,
+        "qy": -0.16072599589824677,
+        "qz": 0.03129103407263756,
+        "qw": 0.9849853515625
+      }
+    },
+    {
+      "frame_id": 171,
+      "video_frame_index": 4421,
+      "timestamp": 295.0,
+      "video_timestamp_seconds": 73.75701666666667,
+      "image_path": "images_360/frame_000171_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -0.9088059663772583,
+        "y": -0.6049299240112305,
+        "z": -17.558950424194336
+      },
+      "orientation": {
+        "qx": -0.054520316421985626,
+        "qy": -0.16145354509353638,
+        "qz": 0.03076791577041149,
+        "qw": 0.9848937392234802
+      }
+    },
+    {
+      "frame_id": 172,
+      "video_frame_index": 4451,
+      "timestamp": 297.0,
+      "video_timestamp_seconds": 74.25751666666667,
+      "image_path": "images_360/frame_000172_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -0.492404580116272,
+        "y": -0.6219364404678345,
+        "z": -17.513599395751953
+      },
+      "orientation": {
+        "qx": -0.0545801967382431,
+        "qy": -0.161881685256958,
+        "qz": 0.029945552349090576,
+        "qw": 0.9848446846008301
+      }
+    },
+    {
+      "frame_id": 173,
+      "video_frame_index": 4481,
+      "timestamp": 299.0,
+      "video_timestamp_seconds": 74.75801666666668,
+      "image_path": "images_360/frame_000173_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": -0.09276068955659866,
+        "y": -0.6307822465896606,
+        "z": -17.53249740600586
+      },
+      "orientation": {
+        "qx": -0.054502181708812714,
+        "qy": -0.16204027831554413,
+        "qz": 0.02968791499733925,
+        "qw": 0.9848315119743347
+      }
+    },
+    {
+      "frame_id": 174,
+      "video_frame_index": 4511,
+      "timestamp": 301.0,
+      "video_timestamp_seconds": 75.25851666666667,
+      "image_path": "images_360/frame_000174_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 0.3519009053707123,
+        "y": -0.6142022013664246,
+        "z": -17.505800247192383
+      },
+      "orientation": {
+        "qx": -0.05442620441317558,
+        "qy": -0.16294698417186737,
+        "qz": 0.029250457882881165,
+        "qw": 0.9846985340118408
+      }
+    },
+    {
+      "frame_id": 175,
+      "video_frame_index": 4526,
+      "timestamp": 302.0,
+      "video_timestamp_seconds": 75.50876666666667,
+      "image_path": "images_360/frame_000175_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 0.5915995836257935,
+        "y": -0.6183305382728577,
+        "z": -17.471202850341797
+      },
+      "orientation": {
+        "qx": -0.054372332990169525,
+        "qy": -0.16341638565063477,
+        "qz": 0.02900095470249653,
+        "qw": 0.9846305847167969
+      }
+    },
+    {
+      "frame_id": 176,
+      "video_frame_index": 4556,
+      "timestamp": 304.0,
+      "video_timestamp_seconds": 76.00926666666668,
+      "image_path": "images_360/frame_000176_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 1.046518325805664,
+        "y": -0.6092320084571838,
+        "z": -17.459575653076172
+      },
+      "orientation": {
+        "qx": -0.05421648174524307,
+        "qy": -0.1636846661567688,
+        "qz": 0.0280328206717968,
+        "qw": 0.9846218228340149
+      }
+    },
+    {
+      "frame_id": 177,
+      "video_frame_index": 4586,
+      "timestamp": 306.0,
+      "video_timestamp_seconds": 76.50976666666666,
+      "image_path": "images_360/frame_000177_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 1.5445408821105957,
+        "y": -0.6238315105438232,
+        "z": -17.484222412109375
+      },
+      "orientation": {
+        "qx": -0.05485199764370918,
+        "qy": -0.16345086693763733,
+        "qz": 0.02733428031206131,
+        "qw": 0.984645664691925
+      }
+    },
+    {
+      "frame_id": 178,
+      "video_frame_index": 4616,
+      "timestamp": 308.0,
+      "video_timestamp_seconds": 77.01026666666667,
+      "image_path": "images_360/frame_000178_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 2.0403246879577637,
+        "y": -0.5760132074356079,
+        "z": -17.4284725189209
+      },
+      "orientation": {
+        "qx": -0.054864197969436646,
+        "qy": -0.16350844502449036,
+        "qz": 0.026746483519673347,
+        "qw": 0.9846514463424683
+      }
+    },
+    {
+      "frame_id": 179,
+      "video_frame_index": 4646,
+      "timestamp": 310.0,
+      "video_timestamp_seconds": 77.51076666666667,
+      "image_path": "images_360/frame_000179_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 2.5279009342193604,
+        "y": -0.6151949763298035,
+        "z": -17.441869735717773
+      },
+      "orientation": {
+        "qx": -0.054948028177022934,
+        "qy": -0.16391617059707642,
+        "qz": 0.02595607191324234,
+        "qw": 0.984600841999054
+      }
+    },
+    {
+      "frame_id": 180,
+      "video_frame_index": 4676,
+      "timestamp": 312.0,
+      "video_timestamp_seconds": 78.01126666666667,
+      "image_path": "images_360/frame_000180_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 2.9452216625213623,
+        "y": -0.5909134745597839,
+        "z": -17.476030349731445
+      },
+      "orientation": {
+        "qx": -0.054522838443517685,
+        "qy": -0.16265305876731873,
+        "qz": 0.02546975202858448,
+        "qw": 0.9848465323448181
+      }
+    },
+    {
+      "frame_id": 181,
+      "video_frame_index": 4706,
+      "timestamp": 314.0,
+      "video_timestamp_seconds": 78.51176666666667,
+      "image_path": "images_360/frame_000181_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 3.445505142211914,
+        "y": -0.6093621253967285,
+        "z": -17.453256607055664
+      },
+      "orientation": {
+        "qx": -0.05532888323068619,
+        "qy": -0.16279520094394684,
+        "qz": 0.025125369429588318,
+        "qw": 0.9847866296768188
+      }
+    },
+    {
+      "frame_id": 182,
+      "video_frame_index": 4736,
+      "timestamp": 316.0,
+      "video_timestamp_seconds": 79.01226666666668,
+      "image_path": "images_360/frame_000182_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 3.909101724624634,
+        "y": -0.5973315834999084,
+        "z": -17.427095413208008
+      },
+      "orientation": {
+        "qx": -0.05527811869978905,
+        "qy": -0.16289281845092773,
+        "qz": 0.024972012266516685,
+        "qw": 0.9847775101661682
+      }
+    },
+    {
+      "frame_id": 183,
+      "video_frame_index": 4766,
+      "timestamp": 318.0,
+      "video_timestamp_seconds": 79.51276666666666,
+      "image_path": "images_360/frame_000183_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 4.296352863311768,
+        "y": -0.5744173526763916,
+        "z": -17.46957015991211
+      },
+      "orientation": {
+        "qx": -0.055044516921043396,
+        "qy": -0.161986842751503,
+        "qz": 0.024563772603869438,
+        "qw": 0.9849503040313721
+      }
+    },
+    {
+      "frame_id": 184,
+      "video_frame_index": 4796,
+      "timestamp": 320.0,
+      "video_timestamp_seconds": 80.01326666666667,
+      "image_path": "images_360/frame_000184_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 4.757046222686768,
+        "y": -0.6008502840995789,
+        "z": -17.535924911499023
+      },
+      "orientation": {
+        "qx": -0.05476957559585571,
+        "qy": -0.1618509292602539,
+        "qz": 0.024321753531694412,
+        "qw": 0.984994113445282
+      }
+    },
+    {
+      "frame_id": 185,
+      "video_frame_index": 4826,
+      "timestamp": 322.0,
+      "video_timestamp_seconds": 80.51376666666667,
+      "image_path": "images_360/frame_000185_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 5.195276737213135,
+        "y": -0.5806194543838501,
+        "z": -17.534141540527344
+      },
+      "orientation": {
+        "qx": -0.05472780391573906,
+        "qy": -0.16191063821315765,
+        "qz": 0.02404923178255558,
+        "qw": 0.9849928021430969
+      }
+    },
+    {
+      "frame_id": 186,
+      "video_frame_index": 4856,
+      "timestamp": 324.0,
+      "video_timestamp_seconds": 81.01426666666667,
+      "image_path": "images_360/frame_000186_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 5.592202186584473,
+        "y": -0.5683323740959167,
+        "z": -17.49986457824707
+      },
+      "orientation": {
+        "qx": -0.05413050577044487,
+        "qy": -0.16087773442268372,
+        "qz": 0.023406637832522392,
+        "qw": 0.9852102398872375
+      }
+    },
+    {
+      "frame_id": 187,
+      "video_frame_index": 4886,
+      "timestamp": 326.0,
+      "video_timestamp_seconds": 81.51476666666667,
+      "image_path": "images_360/frame_000187_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.064302921295166,
+        "y": -0.6176875829696655,
+        "z": -17.43705177307129
+      },
+      "orientation": {
+        "qx": -0.05517179146409035,
+        "qy": -0.16140258312225342,
+        "qz": 0.022613679990172386,
+        "qw": 0.9850856065750122
+      }
+    },
+    {
+      "frame_id": 188,
+      "video_frame_index": 4916,
+      "timestamp": 328.0,
+      "video_timestamp_seconds": 82.01526666666668,
+      "image_path": "images_360/frame_000188_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.325733661651611,
+        "y": -0.6419731378555298,
+        "z": -17.2807559967041
+      },
+      "orientation": {
+        "qx": -0.05635921657085419,
+        "qy": -0.16047070920467377,
+        "qz": 0.022621668875217438,
+        "qw": 0.9851705431938171
+      }
+    },
+    {
+      "frame_id": 189,
+      "video_frame_index": 4946,
+      "timestamp": 330.0,
+      "video_timestamp_seconds": 82.51576666666666,
+      "image_path": "images_360/frame_000189_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.525271415710449,
+        "y": -0.7647596001625061,
+        "z": -17.13530921936035
+      },
+      "orientation": {
+        "qx": -0.05848303064703941,
+        "qy": -0.15949983894824982,
+        "qz": 0.02238679863512516,
+        "qw": 0.9852105975151062
+      }
+    },
+    {
+      "frame_id": 190,
+      "video_frame_index": 4976,
+      "timestamp": 332.0,
+      "video_timestamp_seconds": 83.01626666666667,
+      "image_path": "images_360/frame_000190_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.67940092086792,
+        "y": -0.7782894968986511,
+        "z": -16.96849822998047
+      },
+      "orientation": {
+        "qx": -0.058721743524074554,
+        "qy": -0.15763843059539795,
+        "qz": 0.02272677980363369,
+        "qw": 0.9854871034622192
+      }
+    },
+    {
+      "frame_id": 191,
+      "video_frame_index": 5036,
+      "timestamp": 336.0,
+      "video_timestamp_seconds": 84.01726666666667,
+      "image_path": "images_360/frame_000191_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.758710861206055,
+        "y": -0.7034885287284851,
+        "z": -16.415010452270508
+      },
+      "orientation": {
+        "qx": -0.05864623188972473,
+        "qy": -0.15685489773750305,
+        "qz": 0.022987177595496178,
+        "qw": 0.9856111407279968
+      }
+    },
+    {
+      "frame_id": 192,
+      "video_frame_index": 5066,
+      "timestamp": 338.0,
+      "video_timestamp_seconds": 84.51776666666667,
+      "image_path": "images_360/frame_000192_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.7530598640441895,
+        "y": -0.7385508418083191,
+        "z": -16.010215759277344
+      },
+      "orientation": {
+        "qx": -0.05875912681221962,
+        "qy": -0.15703079104423523,
+        "qz": 0.023494256660342216,
+        "qw": 0.9855639934539795
+      }
+    },
+    {
+      "frame_id": 193,
+      "video_frame_index": 5081,
+      "timestamp": 339.0,
+      "video_timestamp_seconds": 84.76801666666667,
+      "image_path": "images_360/frame_000193_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.772122859954834,
+        "y": -0.7032060623168945,
+        "z": -15.777503967285156
+      },
+      "orientation": {
+        "qx": -0.058637574315071106,
+        "qy": -0.15733209252357483,
+        "qz": 0.023779070004820824,
+        "qw": 0.9855166673660278
+      }
+    },
+    {
+      "frame_id": 194,
+      "video_frame_index": 5096,
+      "timestamp": 340.0,
+      "video_timestamp_seconds": 85.01826666666668,
+      "image_path": "images_360/frame_000194_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.770219326019287,
+        "y": -0.7232471108436584,
+        "z": -15.526987075805664
+      },
+      "orientation": {
+        "qx": -0.05873290076851845,
+        "qy": -0.15691536664962769,
+        "qz": 0.023719292134046555,
+        "qw": 0.9855787754058838
+      }
+    },
+    {
+      "frame_id": 195,
+      "video_frame_index": 5111,
+      "timestamp": 341.0,
+      "video_timestamp_seconds": 85.26851666666667,
+      "image_path": "images_360/frame_000195_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.756383419036865,
+        "y": -0.7298584580421448,
+        "z": -15.293465614318848
+      },
+      "orientation": {
+        "qx": -0.05862022563815117,
+        "qy": -0.15709029138088226,
+        "qz": 0.024240005761384964,
+        "qw": 0.9855451583862305
+      }
+    },
+    {
+      "frame_id": 196,
+      "video_frame_index": 5126,
+      "timestamp": 342.0,
+      "video_timestamp_seconds": 85.51876666666666,
+      "image_path": "images_360/frame_000196_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.709590435028076,
+        "y": -0.7040694952011108,
+        "z": -15.068222999572754
+      },
+      "orientation": {
+        "qx": -0.05866722762584686,
+        "qy": -0.15714126825332642,
+        "qz": 0.02424866147339344,
+        "qw": 0.9855340719223022
+      }
+    },
+    {
+      "frame_id": 197,
+      "video_frame_index": 5141,
+      "timestamp": 343.0,
+      "video_timestamp_seconds": 85.76901666666667,
+      "image_path": "images_360/frame_000197_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.665951728820801,
+        "y": -0.6936573386192322,
+        "z": -14.799368858337402
+      },
+      "orientation": {
+        "qx": -0.05869489163160324,
+        "qy": -0.15729472041130066,
+        "qz": 0.0244915671646595,
+        "qw": 0.9855010509490967
+      }
+    },
+    {
+      "frame_id": 198,
+      "video_frame_index": 5156,
+      "timestamp": 344.0,
+      "video_timestamp_seconds": 86.01926666666667,
+      "image_path": "images_360/frame_000198_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.647456645965576,
+        "y": -0.7067441940307617,
+        "z": -14.57546329498291
+      },
+      "orientation": {
+        "qx": -0.058441031724214554,
+        "qy": -0.15768909454345703,
+        "qz": 0.02528305910527706,
+        "qw": 0.9854336380958557
+      }
+    },
+    {
+      "frame_id": 199,
+      "video_frame_index": 5171,
+      "timestamp": 345.0,
+      "video_timestamp_seconds": 86.26951666666668,
+      "image_path": "images_360/frame_000199_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.631962776184082,
+        "y": -0.6962454915046692,
+        "z": -14.344016075134277
+      },
+      "orientation": {
+        "qx": -0.05840855836868286,
+        "qy": -0.15757006406784058,
+        "qz": 0.025257760658860207,
+        "qw": 0.9854556322097778
+      }
+    },
+    {
+      "frame_id": 200,
+      "video_frame_index": 5186,
+      "timestamp": 346.0,
+      "video_timestamp_seconds": 86.51976666666667,
+      "image_path": "images_360/frame_000200_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.619877338409424,
+        "y": -0.6826135516166687,
+        "z": -14.080159187316895
+      },
+      "orientation": {
+        "qx": -0.05835619568824768,
+        "qy": -0.15748535096645355,
+        "qz": 0.02524295449256897,
+        "qw": 0.9854726791381836
+      }
+    },
+    {
+      "frame_id": 201,
+      "video_frame_index": 5201,
+      "timestamp": 347.0,
+      "video_timestamp_seconds": 86.77001666666668,
+      "image_path": "images_360/frame_000201_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.602550506591797,
+        "y": -0.6919107437133789,
+        "z": -13.830089569091797
+      },
+      "orientation": {
+        "qx": -0.05785324424505234,
+        "qy": -0.15746022760868073,
+        "qz": 0.025735657662153244,
+        "qw": 0.9854937195777893
+      }
+    },
+    {
+      "frame_id": 202,
+      "video_frame_index": 5216,
+      "timestamp": 348.0,
+      "video_timestamp_seconds": 87.02026666666667,
+      "image_path": "images_360/frame_000202_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.549211502075195,
+        "y": -0.6955962181091309,
+        "z": -13.576944351196289
+      },
+      "orientation": {
+        "qx": -0.05835648253560066,
+        "qy": -0.1578029990196228,
+        "qz": 0.02568109706044197,
+        "qw": 0.9854103326797485
+      }
+    },
+    {
+      "frame_id": 203,
+      "video_frame_index": 5231,
+      "timestamp": 349.0,
+      "video_timestamp_seconds": 87.27051666666667,
+      "image_path": "images_360/frame_000203_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.491340160369873,
+        "y": -0.6419302225112915,
+        "z": -13.33568000793457
+      },
+      "orientation": {
+        "qx": -0.057819124311208725,
+        "qy": -0.15816010534763336,
+        "qz": 0.025888923555612564,
+        "qw": 0.9853790998458862
+      }
+    },
+    {
+      "frame_id": 204,
+      "video_frame_index": 5246,
+      "timestamp": 350.0,
+      "video_timestamp_seconds": 87.52076666666667,
+      "image_path": "images_360/frame_000204_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.418266773223877,
+        "y": -0.6591501235961914,
+        "z": -13.110482215881348
+      },
+      "orientation": {
+        "qx": -0.057703182101249695,
+        "qy": -0.15807150304317474,
+        "qz": 0.02611611597239971,
+        "qw": 0.9853940606117249
+      }
+    },
+    {
+      "frame_id": 205,
+      "video_frame_index": 5276,
+      "timestamp": 352.0,
+      "video_timestamp_seconds": 88.02126666666668,
+      "image_path": "images_360/frame_000205_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.339038848876953,
+        "y": -0.6302788853645325,
+        "z": -12.675271034240723
+      },
+      "orientation": {
+        "qx": -0.05754844471812248,
+        "qy": -0.15815149247646332,
+        "qz": 0.02632790058851242,
+        "qw": 0.9853846430778503
+      }
+    },
+    {
+      "frame_id": 206,
+      "video_frame_index": 5306,
+      "timestamp": 354.0,
+      "video_timestamp_seconds": 88.52176666666666,
+      "image_path": "images_360/frame_000206_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.272566318511963,
+        "y": -0.640728771686554,
+        "z": -12.178605079650879
+      },
+      "orientation": {
+        "qx": -0.05736461281776428,
+        "qy": -0.157571479678154,
+        "qz": 0.026883812621235847,
+        "qw": 0.9854736924171448
+      }
+    },
+    {
+      "frame_id": 207,
+      "video_frame_index": 5336,
+      "timestamp": 356.0,
+      "video_timestamp_seconds": 89.02226666666667,
+      "image_path": "images_360/frame_000207_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.185636520385742,
+        "y": -0.6013672351837158,
+        "z": -11.718484878540039
+      },
+      "orientation": {
+        "qx": -0.05709506943821907,
+        "qy": -0.1572239249944687,
+        "qz": 0.02667352557182312,
+        "qw": 0.9855499863624573
+      }
+    },
+    {
+      "frame_id": 208,
+      "video_frame_index": 5366,
+      "timestamp": 358.0,
+      "video_timestamp_seconds": 89.52276666666667,
+      "image_path": "images_360/frame_000208_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.142548084259033,
+        "y": -0.6193042993545532,
+        "z": -11.271044731140137
+      },
+      "orientation": {
+        "qx": -0.0572255402803421,
+        "qy": -0.15749101340770721,
+        "qz": 0.0274468082934618,
+        "qw": 0.9854787588119507
+      }
+    },
+    {
+      "frame_id": 209,
+      "video_frame_index": 5396,
+      "timestamp": 360.0,
+      "video_timestamp_seconds": 90.02326666666667,
+      "image_path": "images_360/frame_000209_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.153726100921631,
+        "y": -0.6374484896659851,
+        "z": -10.77330493927002
+      },
+      "orientation": {
+        "qx": -0.057445887476205826,
+        "qy": -0.15781241655349731,
+        "qz": 0.027556180953979492,
+        "qw": 0.9854111075401306
+      }
+    },
+    {
+      "frame_id": 210,
+      "video_frame_index": 5426,
+      "timestamp": 362.0,
+      "video_timestamp_seconds": 90.52376666666667,
+      "image_path": "images_360/frame_000210_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.0597052574157715,
+        "y": -0.5807635188102722,
+        "z": -10.271627426147461
+      },
+      "orientation": {
+        "qx": -0.0571880005300045,
+        "qy": -0.15808019042015076,
+        "qz": 0.02758156880736351,
+        "qw": 0.9853828549385071
+      }
+    },
+    {
+      "frame_id": 211,
+      "video_frame_index": 5441,
+      "timestamp": 363.0,
+      "video_timestamp_seconds": 90.77401666666667,
+      "image_path": "images_360/frame_000211_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.0384345054626465,
+        "y": -0.6005364656448364,
+        "z": -10.018503189086914
+      },
+      "orientation": {
+        "qx": -0.05695682764053345,
+        "qy": -0.15862229466438293,
+        "qz": 0.027700791135430336,
+        "qw": 0.9853055477142334
+      }
+    },
+    {
+      "frame_id": 212,
+      "video_frame_index": 5471,
+      "timestamp": 365.0,
+      "video_timestamp_seconds": 91.27451666666667,
+      "image_path": "images_360/frame_000212_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.074098587036133,
+        "y": -0.5710341334342957,
+        "z": -9.569768905639648
+      },
+      "orientation": {
+        "qx": -0.05690562352538109,
+        "qy": -0.1587119847536087,
+        "qz": 0.02794979326426983,
+        "qw": 0.9852877855300903
+      }
+    },
+    {
+      "frame_id": 213,
+      "video_frame_index": 5516,
+      "timestamp": 368.0,
+      "video_timestamp_seconds": 92.02526666666667,
+      "image_path": "images_360/frame_000213_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.107590675354004,
+        "y": -0.5956211090087891,
+        "z": -8.89090347290039
+      },
+      "orientation": {
+        "qx": -0.05701030045747757,
+        "qy": -0.15850436687469482,
+        "qz": 0.027733858674764633,
+        "qw": 0.985321044921875
+      }
+    },
+    {
+      "frame_id": 214,
+      "video_frame_index": 5546,
+      "timestamp": 370.0,
+      "video_timestamp_seconds": 92.52576666666667,
+      "image_path": "images_360/frame_000214_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.072929859161377,
+        "y": -0.6036737561225891,
+        "z": -8.473599433898926
+      },
+      "orientation": {
+        "qx": -0.056891050189733505,
+        "qy": -0.15875451266765594,
+        "qz": 0.028115298599004745,
+        "qw": 0.9852768182754517
+      }
+    },
+    {
+      "frame_id": 215,
+      "video_frame_index": 5591,
+      "timestamp": 373.0,
+      "video_timestamp_seconds": 93.27651666666667,
+      "image_path": "images_360/frame_000215_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.158993721008301,
+        "y": -0.5859311819076538,
+        "z": -7.881518363952637
+      },
+      "orientation": {
+        "qx": -0.056568656116724014,
+        "qy": -0.15875890851020813,
+        "qz": 0.02835705690085888,
+        "qw": 0.9852871894836426
+      }
+    },
+    {
+      "frame_id": 216,
+      "video_frame_index": 5651,
+      "timestamp": 377.0,
+      "video_timestamp_seconds": 94.27751666666667,
+      "image_path": "images_360/frame_000216_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.433022499084473,
+        "y": -0.517487645149231,
+        "z": -7.214973449707031
+      },
+      "orientation": {
+        "qx": -0.05380597338080406,
+        "qy": -0.161782905459404,
+        "qz": 0.02907409518957138,
+        "qw": 0.9849293828010559
+      }
+    },
+    {
+      "frame_id": 217,
+      "video_frame_index": 5681,
+      "timestamp": 379.0,
+      "video_timestamp_seconds": 94.77801666666667,
+      "image_path": "images_360/frame_000217_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.6840500831604,
+        "y": -0.4982373118400574,
+        "z": -7.0326972007751465
+      },
+      "orientation": {
+        "qx": -0.05317479372024536,
+        "qy": -0.1624596267938614,
+        "qz": 0.02824901044368744,
+        "qw": 0.984876811504364
+      }
+    },
+    {
+      "frame_id": 218,
+      "video_frame_index": 5696,
+      "timestamp": 380.0,
+      "video_timestamp_seconds": 95.02826666666667,
+      "image_path": "images_360/frame_000218_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.83381462097168,
+        "y": -0.5141737461090088,
+        "z": -6.968480587005615
+      },
+      "orientation": {
+        "qx": -0.05294165760278702,
+        "qy": -0.16233929991722107,
+        "qz": 0.028361765667796135,
+        "qw": 0.9849070906639099
+      }
+    },
+    {
+      "frame_id": 219,
+      "video_frame_index": 5711,
+      "timestamp": 381.0,
+      "video_timestamp_seconds": 95.27851666666668,
+      "image_path": "images_360/frame_000219_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.982781410217285,
+        "y": -0.5379365086555481,
+        "z": -6.914734363555908
+      },
+      "orientation": {
+        "qx": -0.05296414718031883,
+        "qy": -0.16236090660095215,
+        "qz": 0.028271779417991638,
+        "qw": 0.9849031567573547
+      }
+    },
+    {
+      "frame_id": 220,
+      "video_frame_index": 5741,
+      "timestamp": 383.0,
+      "video_timestamp_seconds": 95.77901666666668,
+      "image_path": "images_360/frame_000220_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 7.300558090209961,
+        "y": -0.5213683843612671,
+        "z": -6.749361038208008
+      },
+      "orientation": {
+        "qx": -0.05347365140914917,
+        "qy": -0.16234122216701508,
+        "qz": 0.02791384980082512,
+        "qw": 0.98488849401474
+      }
+    },
+    {
+      "frame_id": 221,
+      "video_frame_index": 5770,
+      "timestamp": 385.0,
+      "video_timestamp_seconds": 96.26283333333333,
+      "image_path": "images_360/frame_000221_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 7.674962043762207,
+        "y": -0.5465217232704163,
+        "z": -6.663311004638672
+      },
+      "orientation": {
+        "qx": -0.053353358060121536,
+        "qy": -0.162061870098114,
+        "qz": 0.0271436870098114,
+        "qw": 0.9849634170532227
+      }
+    },
+    {
+      "frame_id": 222,
+      "video_frame_index": 5800,
+      "timestamp": 387.0,
+      "video_timestamp_seconds": 96.76333333333334,
+      "image_path": "images_360/frame_000222_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 8.051311492919922,
+        "y": -0.5478544235229492,
+        "z": -6.673815727233887
+      },
+      "orientation": {
+        "qx": -0.053717195987701416,
+        "qy": -0.1620444357395172,
+        "qz": 0.02637508511543274,
+        "qw": 0.984967052936554
+      }
+    },
+    {
+      "frame_id": 223,
+      "video_frame_index": 5830,
+      "timestamp": 389.0,
+      "video_timestamp_seconds": 97.26383333333334,
+      "image_path": "images_360/frame_000223_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 8.422959327697754,
+        "y": -0.5354703068733215,
+        "z": -6.63994836807251
+      },
+      "orientation": {
+        "qx": -0.05360723286867142,
+        "qy": -0.16197200119495392,
+        "qz": 0.025337638333439827,
+        "qw": 0.9850122928619385
+      }
+    },
+    {
+      "frame_id": 224,
+      "video_frame_index": 5950,
+      "timestamp": 397.0,
+      "video_timestamp_seconds": 99.26583333333333,
+      "image_path": "images_360/frame_000224_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 8.845836639404297,
+        "y": -0.5989866852760315,
+        "z": -6.507576942443848
+      },
+      "orientation": {
+        "qx": -0.05398781970143318,
+        "qy": -0.16154642403125763,
+        "qz": 0.022680843248963356,
+        "qw": 0.9851260185241699
+      }
+    },
+    {
+      "frame_id": 225,
+      "video_frame_index": 6130,
+      "timestamp": 409.0,
+      "video_timestamp_seconds": 102.26883333333333,
+      "image_path": "images_360/frame_000225_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 8.407164573669434,
+        "y": -0.6767698526382446,
+        "z": -6.528746604919434
+      },
+      "orientation": {
+        "qx": -0.056142862886190414,
+        "qy": -0.15673740208148956,
+        "qz": 0.01991637609899044,
+        "qw": 0.9858428835868835
+      }
+    },
+    {
+      "frame_id": 226,
+      "video_frame_index": 6175,
+      "timestamp": 412.0,
+      "video_timestamp_seconds": 103.01958333333334,
+      "image_path": "images_360/frame_000226_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 7.9197998046875,
+        "y": -0.6522050499916077,
+        "z": -6.7249836921691895
+      },
+      "orientation": {
+        "qx": -0.05715377256274223,
+        "qy": -0.15686726570129395,
+        "qz": 0.020991886034607887,
+        "qw": 0.9857409000396729
+      }
+    },
+    {
+      "frame_id": 227,
+      "video_frame_index": 6205,
+      "timestamp": 414.0,
+      "video_timestamp_seconds": 103.52008333333333,
+      "image_path": "images_360/frame_000227_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 7.589165687561035,
+        "y": -0.6253411769866943,
+        "z": -6.8416218757629395
+      },
+      "orientation": {
+        "qx": -0.05775517597794533,
+        "qy": -0.15714170038700104,
+        "qz": 0.021431654691696167,
+        "qw": 0.9856529831886292
+      }
+    },
+    {
+      "frame_id": 228,
+      "video_frame_index": 6235,
+      "timestamp": 416.0,
+      "video_timestamp_seconds": 104.02058333333333,
+      "image_path": "images_360/frame_000228_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 7.1953020095825195,
+        "y": -0.6186925172805786,
+        "z": -6.869752883911133
+      },
+      "orientation": {
+        "qx": -0.058080825954675674,
+        "qy": -0.15742424130439758,
+        "qz": 0.02173200622200966,
+        "qw": 0.9855817556381226
+      }
+    },
+    {
+      "frame_id": 229,
+      "video_frame_index": 6265,
+      "timestamp": 418.0,
+      "video_timestamp_seconds": 104.52108333333334,
+      "image_path": "images_360/frame_000229_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.871584892272949,
+        "y": -0.6225575804710388,
+        "z": -6.83569860458374
+      },
+      "orientation": {
+        "qx": -0.05899500846862793,
+        "qy": -0.15811264514923096,
+        "qz": 0.022640611976385117,
+        "qw": 0.985397458076477
+      }
+    },
+    {
+      "frame_id": 230,
+      "video_frame_index": 6295,
+      "timestamp": 420.0,
+      "video_timestamp_seconds": 105.02158333333334,
+      "image_path": "images_360/frame_000230_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.558238506317139,
+        "y": -0.6157544851303101,
+        "z": -6.8171706199646
+      },
+      "orientation": {
+        "qx": -0.0590902641415596,
+        "qy": -0.15889643132686615,
+        "qz": 0.02373235858976841,
+        "qw": 0.9852392077445984
+      }
+    },
+    {
+      "frame_id": 231,
+      "video_frame_index": 6340,
+      "timestamp": 423.0,
+      "video_timestamp_seconds": 105.77233333333335,
+      "image_path": "images_360/frame_000231_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.23915958404541,
+        "y": -0.623258650302887,
+        "z": -6.568150997161865
+      },
+      "orientation": {
+        "qx": -0.05970873683691025,
+        "qy": -0.15992078185081482,
+        "qz": 0.025204142555594444,
+        "qw": 0.9849997162818909
+      }
+    },
+    {
+      "frame_id": 232,
+      "video_frame_index": 6385,
+      "timestamp": 426.0,
+      "video_timestamp_seconds": 106.52308333333333,
+      "image_path": "images_360/frame_000232_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 5.9872565269470215,
+        "y": -0.602678120136261,
+        "z": -6.233670711517334
+      },
+      "orientation": {
+        "qx": -0.059840038418769836,
+        "qy": -0.16216717660427094,
+        "qz": 0.026459911838173866,
+        "qw": 0.9845917224884033
+      }
+    },
+    {
+      "frame_id": 233,
+      "video_frame_index": 6445,
+      "timestamp": 430.0,
+      "video_timestamp_seconds": 107.52408333333334,
+      "image_path": "images_360/frame_000233_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 5.742998123168945,
+        "y": -0.5873113870620728,
+        "z": -5.620270729064941
+      },
+      "orientation": {
+        "qx": -0.0593092180788517,
+        "qy": -0.16377857327461243,
+        "qz": 0.026961345225572586,
+        "qw": 0.9843441247940063
+      }
+    },
+    {
+      "frame_id": 234,
+      "video_frame_index": 6505,
+      "timestamp": 434.0,
+      "video_timestamp_seconds": 108.52508333333334,
+      "image_path": "images_360/frame_000234_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 5.6766157150268555,
+        "y": -0.5885330438613892,
+        "z": -4.838820934295654
+      },
+      "orientation": {
+        "qx": -0.0594722218811512,
+        "qy": -0.1639891266822815,
+        "qz": 0.027227725833654404,
+        "qw": 0.9842914342880249
+      }
+    },
+    {
+      "frame_id": 235,
+      "video_frame_index": 6565,
+      "timestamp": 438.0,
+      "video_timestamp_seconds": 109.52608333333333,
+      "image_path": "images_360/frame_000235_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 5.7127275466918945,
+        "y": -0.5982629060745239,
+        "z": -4.067588806152344
+      },
+      "orientation": {
+        "qx": -0.05903465300798416,
+        "qy": -0.1646399348974228,
+        "qz": 0.02735854685306549,
+        "qw": 0.9842057228088379
+      }
+    },
+    {
+      "frame_id": 236,
+      "video_frame_index": 6640,
+      "timestamp": 443.0,
+      "video_timestamp_seconds": 110.77733333333335,
+      "image_path": "images_360/frame_000236_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 5.676743984222412,
+        "y": -0.5784181952476501,
+        "z": -3.2555625438690186
+      },
+      "orientation": {
+        "qx": -0.05763626843690872,
+        "qy": -0.16596293449401855,
+        "qz": 0.028437389060854912,
+        "qw": 0.9840361475944519
+      }
+    },
+    {
+      "frame_id": 237,
+      "video_frame_index": 6700,
+      "timestamp": 447.0,
+      "video_timestamp_seconds": 111.77833333333334,
+      "image_path": "images_360/frame_000237_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.193062782287598,
+        "y": -0.578650712966919,
+        "z": -2.974243640899658
+      },
+      "orientation": {
+        "qx": -0.05675476789474487,
+        "qy": -0.16821154952049255,
+        "qz": 0.02783944644033909,
+        "qw": 0.9837218523025513
+      }
+    },
+    {
+      "frame_id": 238,
+      "video_frame_index": 6730,
+      "timestamp": 449.0,
+      "video_timestamp_seconds": 112.27883333333334,
+      "image_path": "images_360/frame_000238_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 6.562856197357178,
+        "y": -0.5578948259353638,
+        "z": -2.8588035106658936
+      },
+      "orientation": {
+        "qx": -0.0563376322388649,
+        "qy": -0.16887900233268738,
+        "qz": 0.02721995860338211,
+        "qw": 0.9836486577987671
+      }
+    },
+    {
+      "frame_id": 239,
+      "video_frame_index": 6775,
+      "timestamp": 452.0,
+      "video_timestamp_seconds": 113.02958333333333,
+      "image_path": "images_360/frame_000239_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 7.091500282287598,
+        "y": -0.5717484354972839,
+        "z": -2.7343194484710693
+      },
+      "orientation": {
+        "qx": -0.05590284615755081,
+        "qy": -0.168852299451828,
+        "qz": 0.02616315521299839,
+        "qw": 0.9837069511413574
+      }
+    },
+    {
+      "frame_id": 240,
+      "video_frame_index": 6805,
+      "timestamp": 454.0,
+      "video_timestamp_seconds": 113.53008333333334,
+      "image_path": "images_360/frame_000240_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 7.471641540527344,
+        "y": -0.5790628790855408,
+        "z": -2.739164352416992
+      },
+      "orientation": {
+        "qx": -0.05558457225561142,
+        "qy": -0.16867327690124512,
+        "qz": 0.025315292179584503,
+        "qw": 0.9837781190872192
+      }
+    },
+    {
+      "frame_id": 241,
+      "video_frame_index": 6850,
+      "timestamp": 457.0,
+      "video_timestamp_seconds": 114.28083333333333,
+      "image_path": "images_360/frame_000241_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 8.031177520751953,
+        "y": -0.5816958546638489,
+        "z": -2.664114236831665
+      },
+      "orientation": {
+        "qx": -0.055928993970155716,
+        "qy": -0.16889537870883942,
+        "qz": 0.024162905290722847,
+        "qw": 0.9837498068809509
+      }
+    },
+    {
+      "frame_id": 242,
+      "video_frame_index": 6895,
+      "timestamp": 460.0,
+      "video_timestamp_seconds": 115.03158333333334,
+      "image_path": "images_360/frame_000242_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 8.536928176879883,
+        "y": -0.598565936088562,
+        "z": -2.7101187705993652
+      },
+      "orientation": {
+        "qx": -0.056135326623916626,
+        "qy": -0.16761302947998047,
+        "qz": 0.023330586031079292,
+        "qw": 0.9839775562286377
+      }
+    },
+    {
+      "frame_id": 243,
+      "video_frame_index": 6955,
+      "timestamp": 464.0,
+      "video_timestamp_seconds": 116.03258333333333,
+      "image_path": "images_360/frame_000243_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 8.997126579284668,
+        "y": -0.6433700323104858,
+        "z": -2.6681811809539795
+      },
+      "orientation": {
+        "qx": -0.05718763917684555,
+        "qy": -0.16626089811325073,
+        "qz": 0.02228662744164467,
+        "qw": 0.9841695427894592
+      }
+    },
+    {
+      "frame_id": 244,
+      "video_frame_index": 7135,
+      "timestamp": 476.0,
+      "video_timestamp_seconds": 119.03558333333334,
+      "image_path": "images_360/frame_000244_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 8.878223419189453,
+        "y": -0.4653881788253784,
+        "z": -2.3268346786499023
+      },
+      "orientation": {
+        "qx": -0.056530606001615524,
+        "qy": -0.16257040202617645,
+        "qz": 0.022007416933774948,
+        "qw": 0.9848304390907288
+      }
+    },
+    {
+      "frame_id": 245,
+      "video_frame_index": 7195,
+      "timestamp": 480.0,
+      "video_timestamp_seconds": 120.03658333333334,
+      "image_path": "images_360/frame_000245_360.webp",
+      "image_type": "360_equirectangular",
+      "resolution": "3840x1920",
+      "position": {
+        "x": 8.904071807861328,
+        "y": -0.44050106406211853,
+        "z": -2.320627450942993
+      },
+      "orientation": {
+        "qx": -0.055879440158605576,
+        "qy": -0.1642071008682251,
+        "qz": 0.02378327026963234,
+        "qw": 0.984554648399353
+      }
+    }
+  ]
+}
