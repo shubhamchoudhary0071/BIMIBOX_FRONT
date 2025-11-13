@@ -166,8 +166,9 @@ Make sure you have the following installed:
 You can store your Autodesk Forge credentials in a `.env` file (if applicable):
 
 ```
-FORGE_CLIENT_ID=your_client_id
-FORGE_CLIENT_SECRET=your_client_secret
+VITE_APS_CLIENT_ID=your_client_id
+VITE_APS_CLIENT_SECRET=your_client_secret
+VITE_APS_URN=your_urn
 ```
 
 ---
