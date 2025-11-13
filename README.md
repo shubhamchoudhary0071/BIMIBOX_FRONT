@@ -190,4 +190,4 @@ FORGE_CLIENT_SECRET=your_client_secret
 
 ---
 
-**Developed with ❤️ for precise Forge–Panorama synchronization**
+
