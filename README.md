@@ -1,194 +1,402 @@
-# 🏗️ Forge + PathCameraExplorer Vite App
+# 🏗️ Forge + Panorama + FloorMap Sync System
 
-A Vite-based web application integrating **Autodesk Forge Viewer** with a **Three.js Panorama Explorer**, enabling real-time camera synchronization, calibration, and 3D navigation visualization.
+### **Full Combined README + Developer Guide + Architecture Reference (Complete Edition)**
 
----
+------------------------------------------------------------------------
 
-## 🚀 Getting Started
+# 📌 1. Overview
 
-### 1️⃣ Prerequisites
-Make sure you have the following installed:
-- [Node.js](https://nodejs.org/en/download/) (v18+ recommended)
-- npm (comes with Node.js)
+This project integrates:
 
----
+-   **Autodesk Forge Viewer** (3D BIM model)
+-   **Three.js Panorama Viewer** (PathCameraExplorer)
+-   **FloorMap** (interactive 2D SVG floorplan with camera alignment)
 
-### 2️⃣ Installation Steps
+All systems are synchronized through a global controller:\
+👉 **Zustand Sync Store (`syncStore.js`)**
 
-1. **Clone the repository**
-   ```bash
-   git clone <your-repo-url>
-   cd <your-project-folder>
-   ```
+You can click on the floor plan, move inside the panorama, or orbit
+around Forge ---\
+➡️ The camera will move & sync in all other components smoothly.
 
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
+This README includes:
 
-3. **Run the development server**
-   ```bash
-   npm run dev
-   ```
+✔ Getting Started\
+✔ Installation\
+✔ Architecture diagrams\
+✔ Component breakdown\
+✔ Calibration workflow\
+✔ Sync system internals\
+✔ FloorMap internal logic\
+✔ Developer lifecycle\
+✔ Units & metrics\
+✔ Dataset rules\
+✔ Full system diagrams\
+✔ Troubleshooting\
+✔ Best practices
 
-4. Open your browser and visit:
-   ```
-   http://localhost:3000
-   ```
+------------------------------------------------------------------------
 
-> ⚙️ The app runs on **port 3000** by default.  
-> If another process is using the port, Vite will prompt you to choose another.
+# 📌 2. Getting Started
 
----
+## 2.1 Prerequisites
 
-## 📏 **Standard Units — IMPORTANT**
+Install:
 
-> ⚠️ **This application uses *METERS* as the standard unit for all spatial calculations and coordinate inputs.**
+-   Node.js (v18+ recommended)
+-   npm (comes with Node)
 
-- All **positions, coordinates, and calibration values** must be entered in **meters**.
-- The calibration process and all 3D coordinate transformations (Forge ↔ Panorama) are based on **metric units**.
-- Ensure your dataset and any manual coordinate entries are **converted to meters** before use.
+------------------------------------------------------------------------
 
----
+## 2.2 Installation
 
-## 🧭 Directory Overview
+``` bash
+git clone <your-repo-url>
+cd <project-folder>
 
-```
-.
-├── .env
-├── index.html
-├── package.json
-├── vite.config.js
-├── src
-│   ├── components
-│   │   ├── ForgeViewer.jsx
-│   │   ├── PathCameraExplorer.jsx
-│   │   └── SplitPane.jsx
-│   ├── lib
-│   │   ├── api.js
-│   │   ├── forge_helpers.js
-│   │   ├── pano_helpers.js
-│   │   └── textures.js
-│   ├── store
-│   │   └── syncStore.js
-│   ├── utils
-│   │   ├── calibratePanoToForge.js
-│   │   └── camera_transformation.js
-│   └── main.jsx
-└── public
-    └── data
-        ├── set1
-        ├── set2
-        ├── set3
-        ├── set4
-        ├── set5
-        └── set6
+npm install
+npm run dev
 ```
 
----
+The dev server runs at:
 
-## 🧩 Main Components
+    http://localhost:3000
 
-### 🏗️ `ForgeViewer.jsx`
-- Handles **Autodesk Forge Viewer** initialization and model loading.
-- Manages **camera synchronization** with the Three.js panorama viewer (`PathCameraExplorer`).
-- Applies calibration transformations between **Forge coordinates** and **panorama coordinates**.
+------------------------------------------------------------------------
 
----
+# 📌 3. Standard Units --- IMPORTANT
 
-### 🌀 `PathCameraExplorer.jsx`
-- Implements the **Three.js panorama viewer**.
-- Loads 360° image textures and reconstructs user movement paths.
-- Responsible for syncing **panorama camera movement** with **Forge Viewer**.
-- Reads the dataset JSON (path and frames) to visualize camera trajectory.
+> ⚠ ALL coordinates, calibration points, pano dataset values, Forge
+> model values **must be in meters**.
 
-> 🔁 The dataset path is hardcoded in **two places** in this file:
-> 1. Inside the `init` useEffect  
-> 2. Inside the `updatePanoramaTexture` function  
->  
-> If you’re using a new dataset, update both references to point to your new dataset file:
-> ```js
-> /public/data/<your-set-name>/dataset_360.json
-> ```
->  
-> **Example (current default):**
-> ```js
-> /data/set5/dataset_360.json
-> ```
+The entire system assumes the world uses **metric** units.
 
----
+-   Dataset positions → meters\
+-   Calibration → meters\
+-   Forge viewer coordinates → meters\
+-   FloorMap returned coordinates → meters
 
-### 🧱 `SplitPane.jsx`
-- Acts as the **parent container** of both `ForgeViewer` and `PathCameraExplorer`.
-- Handles **UI layout** and **resizable split panes** between the two viewers.
-- Also manages the **calibration setup** between Forge and panorama coordinate systems.
+Ensure any imported CAD / BIM / dataset values are converted before use.
 
----
+------------------------------------------------------------------------
 
-## 🛠️ Supporting Modules
+# 📌 4. Project Structure
 
-### `helpers/pano_helpers.js`
-- Contains utility functions for panorama rendering, texture management, and math helpers.
+    src/
+      components/
+        ForgeViewer.jsx
+        PathCameraExplorer.jsx
+        FloorMap.jsx
+        SplitPane.jsx
 
-### `utils/`
-- `calibratePanoToForge.js`: Handles calibration matrix computation and 3D coordinate conversion.
-- `camera_transformation.js`: Handles quaternion and matrix transformations between camera coordinate spaces.
+      store/
+        syncStore.js
 
-### `store/syncStore.js`
-- Global state store (using Zustand) for managing sync data between viewers.
+      utils/
+        calibratePanoToForge.js
+        camera_transformation.js
 
----
+      lib/
+        pano_helpers.js
+        floor_map_helpers.js
+        forge_helpers.js
 
-## 🧠 Calibration Reminder
+    public/
+      data/
+        set1/
+        set2/
+        set3/
+        set4/
+        set5/
+        set6/
 
-- Calibration links the Forge world coordinates and panorama camera coordinates.
-- Always ensure **both calibration inputs** (Forge & Panorama points) are in **meters**.
-- The calibration data is saved locally (`localStorage`) under the key:
-  ```
-  revit-pano-calibration-v2
-  ```
+------------------------------------------------------------------------
 
----
+# 📌 5. Component Guide
 
-## 🧩 Common Commands
+------------------------------------------------------------------------
 
-| Command | Description |
-|----------|-------------|
-| `npm install` | Install all dependencies |
-| `npm run dev` | Start Vite dev server on port 3000 |
-| `npm run build` | Build for production |
-| `npm run preview` | Preview the production build locally |
+# 5.1 ForgeViewer.jsx
 
----
+### Responsibilities
 
-## 🧰 Environment Configuration
+-   Initialize Autodesk Forge Viewer
+-   Load models using URN
+-   Mirror synced camera updates
+-   Apply coordinate transformation matrix
+-   Update global camera state (forgeCam + forgePosition)
 
-You can store your Autodesk Forge credentials in a `.env` file (if applicable):
+### Sync behavior
 
-```
-VITE_APS_CLIENT_ID=your_client_id
-VITE_APS_CLIENT_SECRET=your_client_secret
-VITE_APS_URN=your_urn
+Forge viewer sends camera updates to syncStore using:
+
+``` js
+setForgeCam(pos, quat, { noAnimate: true })
 ```
 
----
+This prevents accidental animation loops.
 
-## 📚 Notes
+------------------------------------------------------------------------
 
-- Make sure to have the **Forge model URN** configured in your `ForgeViewer` component.
-- The app expects the Forge token endpoint to be set up in `/lib/api.js`.
-- If calibration data is missing, the Forge viewer will log a warning.
+# 5.2 PathCameraExplorer.jsx (Panorama Viewer)
 
----
+### Responsibilities
 
-## 🧭 Summary
+-   Load 360° dataset
+-   Display panoramic textures
+-   Move along path via dataset JSON
+-   Sync camera updates into store
+-   React to floor clicks
+-   Provide forward direction for FloorMap
 
-✅ Runs on **Vite (port 3000)**  
-✅ Uses **meters** as the standard unit across all systems  
-✅ Syncs **Autodesk Forge Viewer** and **Three.js Panorama**  
-✅ Calibration and coordinate inputs **must be in meters**  
-✅ Update dataset paths in `PathCameraExplorer.jsx` when switching data sets
+### IMPORTANT
 
----
+The dataset appears in **two places**:
 
+1.  Initial data load\
+2.  Texture update function
 
+Update both when switching dataset:
+
+``` js
+/data/set5/dataset_360.json
+```
+
+------------------------------------------------------------------------
+
+# 5.3 FloorMap.jsx (2D Floor Plan)
+
+### Responsibilities
+
+-   Render interactive SVG floor plan\
+-   Display model boundaries\
+-   Display pano path\
+-   Display camera marker & direction wedge\
+-   Convert floor clicks → pano 3D positions\
+-   Provide calibration UI\
+-   Map Pano → Forge space through matrix
+
+### Key Features
+
+✔ Pan + Zoom (mouse wheel, drag)\
+✔ Hover coordinates in meters\
+✔ Camera marker projected on path\
+✔ Custom overlay tools\
+✔ Calibration workflow\
+✔ Path following
+
+------------------------------------------------------------------------
+
+# 📌 6. Sync System Architecture
+
+The entire synchronization is orchestrated through:
+
+## 🧠 syncStore.js (Zustand)
+
+### Purpose
+
+-   Maintain unified state between Forge, Pano, FloorMap
+-   Track the most recent update source
+-   Prevent infinite loops
+-   Interpolate animations (smooth sync)
+-   Store calibration and floor clicks
+
+------------------------------------------------------------------------
+
+### Data Flow Diagram
+
+               (Pano Movement)
+    PathCameraExplorer  ─────►  syncStore  ─────► ForgeViewer
+                             ▲          │
+                             │          ▼
+                     FloorMap ◄──── floorClick
+
+------------------------------------------------------------------------
+
+### Store Contains:
+
+  State                      Description
+  -------------------------- ------------------------------------------------
+  panoCam                    {pos, quat} from panorama viewer
+  forgeCam                   {pos, quat} from Forge viewer
+  floorPosition              Last clicked floor coordinate (meters)
+  source                     "pano" or "forge" --- identifies update origin
+  isSyncing                  Set when syncing starts
+  syncCount                  Debugging counter
+  floorClick                 `{pos, seq}` used to trigger pano jumps
+  smooth animation targets   targetPanoPose, targetForgePose
+
+## Smooth interpolation
+
+Uses **lerp() + slerp()** for smooth transitions over 300ms.
+
+------------------------------------------------------------------------
+
+# 📌 7. Calibration Guide
+
+Calibration solves the mapping:
+
+    SVG coordinates → Model coordinates (meters)
+
+You choose 3 points:
+
+1.  Click on map\
+2.  Enter model coordinates (meters)\
+3.  Press Apply
+
+Behind the scenes it builds:
+
+    [a b c]
+    [d e f]
+
+Used in:
+
+``` js
+mapSvgToModel()
+mapModelToSvg()
+panoToForge()
+```
+
+The computed matrix is saved in:
+
+    localStorage["revit-pano-calibration-v2"]
+
+------------------------------------------------------------------------
+
+# 📌 8. FloorMap Internals
+
+## 8.1 Zoom + Pan
+
+-   Wheel zoom adjusts viewBox
+-   Drag pans the viewBox
+-   Clamp logic ensures map boundaries stay visible
+
+## 8.2 Path Projection Algorithm
+
+Ensures the camera marker snaps to the closest point on the path
+forward:
+
+``` js
+projectToSegment(px, py, a, b)
+```
+
+Used inside:
+
+``` js
+setDotPositionOnPath()
+```
+
+## 8.3 Camera Heading
+
+Using quaternion → 2D direction:
+
+``` js
+rotateVecByQuat()
+```
+
+------------------------------------------------------------------------
+
+# 📌 9. Dataset Format
+
+Example entry:
+
+``` json
+{
+  "position": {"x": 0, "y": 1.6, "z": 0},
+  "image_path": "frame_0001.jpg"
+}
+```
+
+Dataset loading: - Smooths via **Savitzky--Golay** - Converts vectors to
+metric system - Generates path for FloorMap
+
+------------------------------------------------------------------------
+
+# 📌 10. System Diagrams
+
+## Full Overview
+
+                    FloorMap (2D SVG)
+                     ▲       │
+                     │       ▼
+               ┌──── syncStore ────┐
+               │                    │
+               ▼                    ▼
+      PathCameraExplorer       ForgeViewer
+        (Three.js)               (APS)
+
+## Sync Loop Prevention
+
+    Forge update ---> source="forge"
+    Pano ignores forge-origin updates
+
+    Pano update ----> source="pano"
+    Forge ignores pano-origin updates
+
+------------------------------------------------------------------------
+
+# 📌 11. Troubleshooting
+
+### ❌ Camera not syncing
+
+Check: - Calibration matrix loaded? - syncStore source flags?
+
+### ❌ Floor click not moving panorama
+
+Ensure: - `floorClick.seq` increments\
+- Path index computed correctly\
+- Dataset smoothed properly
+
+### ❌ Map looks unscaled
+
+Reset calibration:\
+UI → Reset Calibration
+
+------------------------------------------------------------------------
+
+# 📌 12. Best Practices
+
+✔ Always input coordinates in **meters**\
+✔ Disable animation for internal camera updates\
+✔ Use `source` to prevent camera loops\
+✔ Keep dataset smoothed\
+✔ Refresh calibration when switching floors\
+✔ Avoid rapid-fire updates by using debounce/throttle
+
+------------------------------------------------------------------------
+
+# 📌 13. Environment Setup
+
+`.env` file:
+
+    VITE_APS_CLIENT_ID=
+    VITE_APS_CLIENT_SECRET=
+    VITE_APS_URN=
+
+------------------------------------------------------------------------
+
+# 📌 14. Commands
+
+  Command             Use
+  ------------------- --------------------------
+  `npm install`       Install dependencies
+  `npm run dev`       Start development
+  `npm run build`     Production build
+  `npm run preview`   Serve production locally
+
+------------------------------------------------------------------------
+
+# 🎉 Complete README Generated
+
+This README includes **everything**:
+
+-   Installation\
+-   Architecture\
+-   Developer guide\
+-   FloorMap internals\
+-   SyncStore logic\
+-   Calibration guide\
+-   System diagrams\
+-   Dataset rules\
+-   Units\
+-   Complete workflow
